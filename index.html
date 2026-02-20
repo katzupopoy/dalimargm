@@ -1566,7 +1566,26 @@ function clearCart(){
   refreshCartUI();
   updateCartCount();
 }
+function setQty(cat, name, value){
+  let qty = parseInt(value, 10);
+  if(isNaN(qty) || qty < 0) qty = 0;
 
+  const idx = cart.findIndex(x => x.cat === cat && x.name === name);
+  if(idx === -1) return;
+
+  if(qty === 0) cart.splice(idx, 1);
+  else cart[idx].qty = qty;
+
+  refreshCartUI();
+  updateCartCount();
+}
+
+let __qtyLiveTimer = null;
+function setQtyLive(cat, name, value){
+  // smoother typing: update after short delay
+  clearTimeout(__qtyLiveTimer);
+  __qtyLiveTimer = setTimeout(()=>setQty(cat, name, value), 250);
+}
 function refreshCartUI(){
   const list = document.getElementById("cartList");
   const empty = document.getElementById("cartEmpty");
@@ -1590,17 +1609,40 @@ function refreshCartUI(){
     row.style.cssText = "display:flex; justify-content:space-between; gap:10px; align-items:center; padding:10px; border-radius:14px; border:1px solid rgba(255,255,255,0.10);";
 
     row.innerHTML = `
-      <div style="min-width:0;">
-        <div style="font-weight:800; font-size:13px; line-height:1.25; word-break:break-word;">${item.name}</div>
-        <div style="font-size:12px; color:var(--muted);">${item.cat} • ${formatPrice(item.price)} each</div>
-      </div>
+  <div style="min-width:0;">
+    <div style="font-weight:800; font-size:13px; line-height:1.25; word-break:break-word;">${item.name}</div>
+    <div style="font-size:12px; color:var(--muted);">${item.cat} • ${formatPrice(item.price)} each</div>
+  </div>
 
-      <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
-        <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;" onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',-1)">−</button>
-        <div style="min-width:28px; text-align:center; font-weight:900;">${item.qty}</div>
-        <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;" onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',1)">+</button>
-      </div>
-    `;
+  <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
+    <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;"
+      onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',-1)">−</button>
+
+    <input
+      type="number"
+      min="0"
+      inputmode="numeric"
+      value="${item.qty}"
+      onfocus="this.select()"
+      onchange="setQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}', this.value)"
+      oninput="setQtyLive('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}', this.value)"
+      style="
+        width:70px;
+        padding:8px 10px;
+        border-radius:12px;
+        border:1px solid rgba(255,255,255,0.16);
+        background:rgba(0,0,0,0.18);
+        color:var(--text);
+        font-weight:900;
+        text-align:center;
+        outline:none;
+      "
+    />
+
+    <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;"
+      onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',1)">+</button>
+  </div>
+`;
     list.appendChild(row);
   });
 
