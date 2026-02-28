@@ -569,22 +569,40 @@ body.noScroll{
 
 </style>
 </head>
+
+<body>
+
+  <!-- Lobsty Toast -->
 <div id="lobstyToast" class="toast" role="status" aria-live="polite">
   <div class="row">
     <div>✅</div>
+
     <div style="min-width:0;">
       <div class="title">Order copied!</div>
+
       <div class="msg">
         Lobsty chat will open. Please <b>paste</b> the order in the chatbot input (Ctrl+V / long-press Paste) then press <b>Send</b>.
       </div>
+
       <div class="actions">
-        <button class="btn btnPrimary" style="padding:10px 12px; border-radius:12px;" onclick="pasteHelp()">How to Paste?</button>
-        <button class="btn btnGhost" style="padding:10px 12px; border-radius:12px;" onclick="hideLobstyToast()">OK</button>
+        <button class="btn btnPrimary"
+                style="padding:10px 12px; border-radius:12px;"
+                onclick="pasteHelp()">
+          How to Paste?
+        </button>
+
+        <button class="btn btnGhost"
+                style="padding:10px 12px; border-radius:12px;"
+                onclick="hideLobstyToast()">
+          OK
+        </button>
       </div>
     </div>
+
     <button class="x" onclick="hideLobstyToast()">✖</button>
   </div>
 </div>
+
 <!-- Lobsty Help Modal -->
 <div id="lobstyHelpModal" role="dialog" aria-modal="true">
   <div class="box">
@@ -614,8 +632,6 @@ body.noScroll{
     </div>
   </div>
 </div>
-
-<body>
 
 <!-- SIDEBAR -->
 <div class="sidebar">
@@ -655,14 +671,12 @@ body.noScroll{
     <li data-cat="Cooler Cups" onclick="showCategory('Cooler Cups', this)">🧊 <span>Cooler Cups</span></li>
     <li data-cat="Microwavable" onclick="showCategory('Microwavable', this)">🔥 <span>Microwavable</span></li>
     <li data-cat="Pasta" onclick="showCategory('Pasta', this)">🍝 <span>Pasta</span></li>
-    <li data-cat="Dry Goods" onclick="showCategory('Dry Goods', this)">
-  📦 <span>Dry Goods</span>
-</li>
+    <li data-cat="Beans & Grains" onclick="showCategory('Beans & Grains', this)"> 🫘 <span>Beans & Grains</span></li>
     <li data-cat="Plastic Bag" onclick="showCategory('Plastic Bag', this)">🛒 <span>Plastic Bag</span></li>
     <li data-cat="Bakery Supplies" onclick="showCategory('Bakery Supplies', this)">🧁 <span>Bakery Supplies</span></li>
     <li data-cat="Juice Flavored" onclick="showCategory('Juice Flavored', this)">🧃 <span>Juice Flavored</span></li>
     <li data-cat="Condiments" onclick="showCategory('Condiments', this)">🍅 <span>Condiments</span></li>
-    <li data-cat="Tools" onclick="showCategory('Tools', this)">🔧 <span>Tools</span></li>
+    <li data-cat="Food Packaging & Service Supplies" onclick="showCategory('Food Packaging & Service Supplies', this)">📦 <span>Food Packaging & Service Supplies</span></li>
     <li data-cat="Straw" onclick="showCategory('Straw', this)">🥤 <span>Straw</span></li>
     <li data-cat="Sago Gulaman" onclick="showCategory('Sago Gulaman', this)">🥥 <span>Sago Gulaman</span></li>
     <li data-cat="Rice" onclick="showCategory('Rice', this)">🍚 <span>Rice</span></li>
@@ -757,44 +771,34 @@ body.noScroll{
           </div>
 
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+            <button class="btn btnPrimary" onclick="generatePO()">⚡ Generate PO</button>
 
-  <button class="btn btnPrimary" onclick="generatePO()">
-    ⚡ Generate PO
-  </button>
+            <button id="copyBtn" class="btn btnGhost" onclick="copyPO()" style="display:none;">
+              📋 Copy
+            </button>
 
-  <button id="copyBtn" class="btn btnGhost"
-          onclick="copyPO()"
-          style="display:none;">
-    📋 Copy
-  </button>
+            <button id="lobstyBtn" class="btn btnGhost" onclick="sendToLobsty()" style="display:none;">
+              🤖 Send Order to Lobsty
+            </button>
 
-  <button id="lobstyBtn" class="btn btnGhost"
-        onclick="sendToLobsty()"
-        style="display:none;">
-  🤖 Send Order to Lobsty
-</button>
-
-  <button id="smsBtn" class="btn btnGhost"
-          onclick="sendSMS()"
-          style="display:none;">
-    📩 Text Order
-  </button>
-
-</div>
+            <button id="smsBtn" class="btn btnGhost" onclick="sendSMS()" style="display:none;">
+              📩 Text Order
+            </button>
+          </div>
 
           <textarea id="poOutput" readonly
             style="margin-top:12px; width:100%; min-height:220px; padding:12px; border-radius:14px; border:1px solid rgba(255,255,255,0.12); background:transparent; color:var(--text); resize:vertical; font-family:monospace;"></textarea>
 
           <div id="copyMsg" style="margin-top:8px; font-size:12px; color:var(--muted);"></div>
 
-        </div>
+        </div> <!-- ✅ end RIGHT -->
 
-      </div>
+      </div> <!-- ✅ end .orderGrid -->
 
-    </div>
+    </div> <!-- ✅ end .modalBody -->
 
-  </div>
-</div>
+  </div> <!-- ✅ end .modalBox -->
+</div> <!-- ✅ end #orderModal -->
 
 <script>
 function allItemsFlat(){
@@ -1373,7 +1377,7 @@ const products = {
     {name:"Twist Macaroni", price:"265.00"}
   ],
 
-  "Dry Goods": [
+  "Beans & Grains": [
     {name:"80/90 Mani", price:"4200.00"},
     {name:"Atsuete Seeds", price:"110.00"},
     {name:"Beans", price:"2000.00"},
@@ -1499,7 +1503,7 @@ const products = {
     {name:"Whole Corn", price:"850.00"}
   ],
 
-  "Tools": [
+  "Food Packaging & Service Supplies": [
     {name:"BBQ Stick 10", price:"1800.00"},
     {name:"BBQ Stick 12", price:"2000.00"},
     {name:"BBQ Stick 6", price:"1000.00"},
