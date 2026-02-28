@@ -1964,7 +1964,7 @@ function refreshCartUI(){
          onfocus="this.select()"
          oninput="setQtyDraft(${index}, this.value)"
          onblur="commitQty(${index}, this.value)"
-         onkeydown="qtyKeyDown(event, ${index}); if(event.key==='Enter'){ commitQty(${index}, this.value); }"
+        onkeydown="qtyKeyDown(event, ${index}, this)"
         />
 
         <button class="btn btnGhost"
@@ -2218,18 +2218,23 @@ function clearSearchUI(){
   currentSuggestions = [];
 }
 
-function qtyKeyDown(e, index){
+function qtyKeyDown(e, index, el){
   if(e.key !== "Enter") return;
 
   e.preventDefault();
 
-  // focus next qty input
-  const inputs = document.querySelectorAll("#cartList .qtyInput");
-  const next = inputs[index + 1] || inputs[0];
-  if(next){
-    next.focus();
-    next.select?.();
-  }
+  // ✅ commit first (will re-render)
+  commitQty(index, el.value);
+
+  // ✅ after re-render, focus next input safely
+  setTimeout(() => {
+    const inputs = document.querySelectorAll("#cartList .qtyInput");
+    const next = inputs[index + 1] || inputs[0];
+    if(next){
+      next.focus();
+      next.select?.();
+    }
+  }, 0);
 }
 
 function renderCurrent(){
