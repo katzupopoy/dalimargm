@@ -567,10 +567,69 @@ body.noScroll{
 }
 #lobstyHelpModal .x:hover{ opacity:1; }
 
+/* ✅ Custom Lobster Launcher */
+#lobstyLauncher{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  width:64px;
+  height:64px;
+  border:0;
+  background:transparent;
+  padding:0;
+  border-radius:999px;
+  cursor:pointer;
+  z-index:999999; /* above everything */
+  display:none;   /* shown only on mobile by JS */
+}
+
+#lobstyLauncher img{
+  width:64px;
+  height:64px;
+  display:block;
+  border-radius:999px;
+  box-shadow:0 18px 45px rgba(0,0,0,.35);
+  border:2px solid rgba(255,255,255,.25);
+  background:rgba(255,255,255,.08);
+}
+
+/* small red notification (optional) */
+#lobstyLauncher .lobstyBadge{
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  min-width:20px;
+  height:20px;
+  padding:0 6px;
+  border-radius:999px;
+  background:#ef4444;
+  color:#fff;
+  font-weight:900;
+  font-size:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+/* subtle pulse (optional) */
+@keyframes lobstyPulse{
+  0%{ transform:scale(1); }
+  50%{ transform:scale(1.06); }
+  100%{ transform:scale(1); }
+}
+#lobstyLauncher.pulse img{ animation: lobstyPulse 1.2s infinite; }
+
 </style>
 </head>
 
 <body>
+
+  <!-- ✅ Custom Mobile Launcher (Lobster) -->
+<button id="lobstyLauncher" aria-label="Open chat" type="button">
+  <img src="images/lobster.png" alt="Lobsty Chat" />
+  <span class="lobstyBadge" id="lobstyBadge" style="display:none;">1</span>
+</button>
 
   <!-- Lobsty Toast -->
 <div id="lobstyToast" class="toast" role="status" aria-live="polite">
@@ -799,6 +858,67 @@ body.noScroll{
 </div> <!-- ✅ end #orderModal -->
 
 <script>
+
+(function(){
+  const isMobile = window.matchMedia("(max-width: 900px)").matches;
+
+  const btn = document.getElementById("lobstyLauncher");
+  if(!btn) return;
+
+  // Show custom launcher only on mobile
+  if(isMobile){
+    btn.style.display = "block";
+    btn.classList.add("pulse");
+  }
+
+  function safeCall(fnName){
+    try{
+      if(typeof Tawk_API !== "undefined" && Tawk_API && typeof Tawk_API[fnName] === "function"){
+        Tawk_API[fnName]();
+        return true;
+      }
+    }catch(e){}
+    return false;
+  }
+
+  // Hide the default Tawk bubble on mobile
+  function hideDefaultBubble(){
+    if(!isMobile) return;
+    // hideWidget() removes bubble/launcher (chat still works when maximized)
+    safeCall("hideWidget");
+  }
+
+  // Make sure it hides once Tawk loads
+  window.Tawk_API = window.Tawk_API || {};
+  const oldOnLoad = window.Tawk_API.onLoad;
+  window.Tawk_API.onLoad = function(){
+    try{ if(oldOnLoad) oldOnLoad(); }catch(e){}
+    hideDefaultBubble();
+  };
+
+  // Extra: keep trying for a short time (in case Tawk loads late)
+  if(isMobile){
+    let tries = 0;
+    const t = setInterval(()=>{
+      tries++;
+      hideDefaultBubble();
+      if(tries >= 30) clearInterval(t); // ~6 seconds
+    }, 200);
+  }
+
+  // Clicking lobster opens chat
+  btn.addEventListener("click", ()=>{
+    // show widget briefly (some configs require it), then open
+    if(isMobile){
+      safeCall("showWidget");
+      setTimeout(()=> safeCall("maximize"), 50);
+    }else{
+      safeCall("maximize");
+    }
+  });
+
+})();
+
 function allItemsFlat(){
   const out = [];
   Object.keys(products).forEach(cat=>{
