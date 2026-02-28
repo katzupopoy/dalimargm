@@ -579,9 +579,16 @@ body.noScroll{
   padding:0;
   border-radius:999px;
   cursor:pointer;
-  z-index:2147483647; /* 🔥 above Tawk */
-  display:none;       /* shown only on mobile by JS */
-  overflow:visible;   /* badge stays visible */
+  z-index:2147483647;
+  overflow:visible;
+  display:none; /* hidden by default */
+}
+
+/* ✅ Show only on mobile */
+@media (max-width: 768px){
+  #lobstyLauncher{
+    display:block;
+  }
 }
 
 #lobstyLauncher img{
@@ -860,6 +867,20 @@ body.noScroll{
 </div> <!-- ✅ end #orderModal -->
 
 <script>
+
+  function updateLobstyVisibility(){
+  const btn = document.getElementById("lobstyLauncher");
+  if(!btn) return;
+
+  if(window.innerWidth <= 768){
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+}
+
+window.addEventListener("resize", updateLobstyVisibility);
+window.addEventListener("load", updateLobstyVisibility);
 
 (function(){
   const isMobile = window.matchMedia("(max-width: 900px)").matches;
