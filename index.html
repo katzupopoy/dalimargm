@@ -677,6 +677,73 @@ body.noScroll{
   }
 }
 
+/* ===== ULTRA PREMIUM ADD BUTTON ===== */
+.btnAddUltra{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+
+  padding:10px 18px;
+  min-width:95px;
+
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,0.15);
+
+  background:
+    linear-gradient(135deg,#facc15 0%, #f97316 100%);
+  color:#1b0f0f;
+
+  font-weight:800;
+  font-size:13px;
+
+  backdrop-filter: blur(6px);
+  box-shadow:
+    0 8px 18px rgba(249,115,22,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.35);
+
+  transition:all .25s ease;
+}
+
+/* hover desktop */
+.btnAddUltra:hover{
+  transform:translateY(-3px);
+  box-shadow:
+    0 14px 28px rgba(249,115,22,0.6),
+    inset 0 1px 0 rgba(255,255,255,0.45);
+}
+
+/* press effect */
+.btnAddUltra:active{
+  transform:scale(.95);
+  box-shadow:
+    0 6px 12px rgba(249,115,22,0.4),
+    inset 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* plus circle style */
+.plusCircle{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  width:22px;
+  height:22px;
+
+  border-radius:50%;
+  background:rgba(0,0,0,0.15);
+  font-weight:900;
+  font-size:14px;
+}
+
+/* mobile refinement */
+@media(max-width:600px){
+  .btnAddUltra{
+    padding:9px 16px;
+    font-size:12.5px;
+  }
+}
+
 </style>
 </head>
 
@@ -1227,9 +1294,10 @@ function renderUniversalResults(q){
         <div style="font-size:12px; color:var(--muted); margin-bottom:10px;">${it.cat}</div>
         <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
           <div class="price">${formatPrice(it.price)}</div>
-          <button class="btn btnPrimary" style="padding:10px 12px; border-radius:12px;"
-            onclick="addToCart('${it.cat.replace(/'/g,"\\'")}','${it.name.replace(/'/g,"\\'")}','${it.price}')">
-            ➕ Add
+          <button class="btnAddUltra"
+           onclick="addToCart('${currentCategory.replace(/'/g,"\\'")}','${it.name.replace(/'/g,"\\'")}','${it.price}')">
+           <span class="plusCircle">+</span>
+           <span>Add</span>
           </button>
         </div>
       </div>
