@@ -2162,6 +2162,7 @@ function updateSuggestHighlight(items){
     items[selectedSuggestIndex].scrollIntoView({ block: "nearest" });
   }
 }
+
 document.addEventListener("keydown", function(e){
 
   const mainInput = document.getElementById("searchInput");
@@ -2196,10 +2197,10 @@ document.addEventListener("keydown", function(e){
     e.preventDefault();
 
     selectedSuggestIndex++;
-    if(selectedSuggestIndex >= items.length)
-      selectedSuggestIndex = 0;
+    if(selectedSuggestIndex >= items.length) selectedSuggestIndex = 0;
 
     updateSuggestHighlight(items);
+    return;
   }
 
   // Arrow Up
@@ -2207,29 +2208,39 @@ document.addEventListener("keydown", function(e){
     e.preventDefault();
 
     selectedSuggestIndex--;
-    if(selectedSuggestIndex < 0)
-      selectedSuggestIndex = items.length - 1;
+    if(selectedSuggestIndex < 0) selectedSuggestIndex = items.length - 1;
 
     updateSuggestHighlight(items);
+    return;
   }
 
   // ENTER
   if(e.key === "Enter"){
     e.preventDefault();
 
-    if(selectedSuggestIndex === -1){
-      selectedSuggestIndex = 0;
-    }
+    if(selectedSuggestIndex === -1) selectedSuggestIndex = 0;
 
     if(currentSuggestions[selectedSuggestIndex]){
-  const selected = currentSuggestions[selectedSuggestIndex];
-  jumpToItem(selected.cat, selected.name);
+      const selected = currentSuggestions[selectedSuggestIndex];
+      jumpToItem(selected.cat, selected.name);
 
-  // ✅ close sidebar only if sidebar search was used
-  if(activeInput === sideInput){
-    closeSidebarUI();
+      // ✅ close sidebar ONLY if user is using sidebar search
+      if(activeInput === sideInput){
+        closeSidebarUI();
+      }
+
+      // ✅ also hide suggestions box after selecting
+      if(activeBox) activeBox.style.display = "none";
+      selectedSuggestIndex = -1;
+    }
+    return;
   }
-}
+
+  // ESC to close suggestions (optional but nice)
+  if(e.key === "Escape"){
+    if(activeBox) activeBox.style.display = "none";
+    selectedSuggestIndex = -1;
+  }
 
 });
 
