@@ -333,7 +333,6 @@ body{ display:flex; background:var(--bg); color:var(--text); }
     position:fixed;
     left:-270px;
     top:0;
-    left:-270px;
     height:100%;
     z-index:999;
     transition:0.3s;
@@ -2223,13 +2222,14 @@ document.addEventListener("keydown", function(e){
     }
 
     if(currentSuggestions[selectedSuggestIndex]){
-      const selected = currentSuggestions[selectedSuggestIndex];
-      jumpToItem(selected.cat, selected.name);
+  const selected = currentSuggestions[selectedSuggestIndex];
+  jumpToItem(selected.cat, selected.name);
 
-      // close sidebar after selecting
-      closeSidebarUI();
-    }
+  // ✅ close sidebar only if sidebar search was used
+  if(activeInput === sideInput){
+    closeSidebarUI();
   }
+}
 
 });
 
