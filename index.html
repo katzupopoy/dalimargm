@@ -569,22 +569,40 @@ body.noScroll{
 
 </style>
 </head>
+
+<body>
+
+  <!-- Lobsty Toast -->
 <div id="lobstyToast" class="toast" role="status" aria-live="polite">
   <div class="row">
     <div>✅</div>
+
     <div style="min-width:0;">
       <div class="title">Order copied!</div>
+
       <div class="msg">
         Lobsty chat will open. Please <b>paste</b> the order in the chatbot input (Ctrl+V / long-press Paste) then press <b>Send</b>.
       </div>
+
       <div class="actions">
-        <button class="btn btnPrimary" style="padding:10px 12px; border-radius:12px;" onclick="pasteHelp()">How to Paste?</button>
-        <button class="btn btnGhost" style="padding:10px 12px; border-radius:12px;" onclick="hideLobstyToast()">OK</button>
+        <button class="btn btnPrimary"
+                style="padding:10px 12px; border-radius:12px;"
+                onclick="pasteHelp()">
+          How to Paste?
+        </button>
+
+        <button class="btn btnGhost"
+                style="padding:10px 12px; border-radius:12px;"
+                onclick="hideLobstyToast()">
+          OK
+        </button>
       </div>
     </div>
+
     <button class="x" onclick="hideLobstyToast()">✖</button>
   </div>
 </div>
+
 <!-- Lobsty Help Modal -->
 <div id="lobstyHelpModal" role="dialog" aria-modal="true">
   <div class="box">
@@ -614,8 +632,6 @@ body.noScroll{
     </div>
   </div>
 </div>
-
-<body>
 
 <!-- SIDEBAR -->
 <div class="sidebar">
@@ -755,44 +771,34 @@ body.noScroll{
           </div>
 
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+            <button class="btn btnPrimary" onclick="generatePO()">⚡ Generate PO</button>
 
-  <button class="btn btnPrimary" onclick="generatePO()">
-    ⚡ Generate PO
-  </button>
+            <button id="copyBtn" class="btn btnGhost" onclick="copyPO()" style="display:none;">
+              📋 Copy
+            </button>
 
-  <button id="copyBtn" class="btn btnGhost"
-          onclick="copyPO()"
-          style="display:none;">
-    📋 Copy
-  </button>
+            <button id="lobstyBtn" class="btn btnGhost" onclick="sendToLobsty()" style="display:none;">
+              🤖 Send Order to Lobsty
+            </button>
 
-  <button id="lobstyBtn" class="btn btnGhost"
-        onclick="sendToLobsty()"
-        style="display:none;">
-  🤖 Send Order to Lobsty
-</button>
-
-  <button id="smsBtn" class="btn btnGhost"
-          onclick="sendSMS()"
-          style="display:none;">
-    📩 Text Order
-  </button>
-
-</div>
+            <button id="smsBtn" class="btn btnGhost" onclick="sendSMS()" style="display:none;">
+              📩 Text Order
+            </button>
+          </div>
 
           <textarea id="poOutput" readonly
             style="margin-top:12px; width:100%; min-height:220px; padding:12px; border-radius:14px; border:1px solid rgba(255,255,255,0.12); background:transparent; color:var(--text); resize:vertical; font-family:monospace;"></textarea>
 
           <div id="copyMsg" style="margin-top:8px; font-size:12px; color:var(--muted);"></div>
 
-        </div>
+        </div> <!-- ✅ end RIGHT -->
 
-      </div>
+      </div> <!-- ✅ end .orderGrid -->
 
-    </div>
+    </div> <!-- ✅ end .modalBody -->
 
-  </div>
-</div>
+  </div> <!-- ✅ end .modalBox -->
+</div> <!-- ✅ end #orderModal -->
 
 <script>
 function allItemsFlat(){
