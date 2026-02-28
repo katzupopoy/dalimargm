@@ -1848,6 +1848,7 @@ const products = {
 
 /* ========= ORDER / CART ========= */
 let cart = []; // {cat, name, price, qty}
+let __focusQtyIndex = null;
 
 let scrollYBeforeModal = 0;
 
@@ -1884,10 +1885,15 @@ function closeOrder(){
 
 function addToCart(cat, name, price){
   const key = `${cat}__${name}`;
-  const found = cart.find(x => `${x.cat}__${x.name}` === key);
+  const foundIndex = cart.findIndex(x => `${x.cat}__${x.name}` === key);
 
-  if(found) found.qty += 1;
-  else cart.push({cat, name, price, qty: 1});
+  if(foundIndex !== -1){
+    cart[foundIndex].qty += 1;
+    __focusQtyIndex = foundIndex;     // focus existing
+  }else{
+    cart.push({cat, name, price, qty: 1});
+    __focusQtyIndex = cart.length - 1; // focus new
+  }
 
   updateCartCount();
 
@@ -1987,6 +1993,18 @@ function refreshCartUI(){
   });
 
   totalEl.textContent = formatPrice(total);
+
+    // ✅ auto-focus qty after adding item
+  if(__focusQtyIndex !== null){
+    setTimeout(() => {
+      const input = document.querySelector(`#cartList .qtyInput[data-idx="${__focusQtyIndex}"]`);
+      if(input){
+        input.focus();
+        input.select?.();
+      }
+      __focusQtyIndex = null;
+    }, 0);
+  }
 }
 
 function updateCartTotalOnly(){
