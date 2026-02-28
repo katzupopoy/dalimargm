@@ -881,37 +881,49 @@ body.noScroll{
     return false;
   }
 
-  // Hide the default Tawk bubble on mobile
+  // Hide default Tawk launcher/bubble on mobile
   function hideDefaultBubble(){
     if(!isMobile) return;
-    // hideWidget() removes bubble/launcher (chat still works when maximized)
+
+    // Best: Tawk API
     safeCall("hideWidget");
+
+    // Extra safety: hide launcher iframe if it appears
+    const launcher = document.querySelector("iframe[title*='launcher']");
+    if(launcher){
+      launcher.style.display = "none";
+      launcher.style.visibility = "hidden";
+      launcher.style.opacity = "0";
+      launcher.style.pointerEvents = "none";
+    }
   }
 
-  // Make sure it hides once Tawk loads
+  // Ensure hide once Tawk loads
   window.Tawk_API = window.Tawk_API || {};
   const oldOnLoad = window.Tawk_API.onLoad;
   window.Tawk_API.onLoad = function(){
     try{ if(oldOnLoad) oldOnLoad(); }catch(e){}
     hideDefaultBubble();
+
+    // 🔥 IMPORTANT: re-hide when user closes/minimizes chat
+    try{
+      Tawk_API.onChatMinimized = function(){ setTimeout(hideDefaultBubble, 250); };
+      Tawk_API.onChatHidden   = function(){ setTimeout(hideDefaultBubble, 250); };
+      Tawk_API.onChatEnded    = function(){ setTimeout(hideDefaultBubble, 250); };
+    }catch(e){}
   };
 
-  // Extra: keep trying for a short time (in case Tawk loads late)
+  // Keep trying (mobile keeps recreating launcher)
   if(isMobile){
-    let tries = 0;
-    const t = setInterval(()=>{
-      tries++;
-      hideDefaultBubble();
-      if(tries >= 30) clearInterval(t); // ~6 seconds
-    }, 200);
+    setInterval(hideDefaultBubble, 1200);
   }
 
   // Clicking lobster opens chat
   btn.addEventListener("click", ()=>{
-    // show widget briefly (some configs require it), then open
     if(isMobile){
-      safeCall("showWidget");
-      setTimeout(()=> safeCall("maximize"), 50);
+      safeCall("showWidget");              // show (required on some configs)
+      setTimeout(()=> safeCall("maximize"), 80);
+      setTimeout(hideDefaultBubble, 600);  // prevent launcher re-appearing
     }else{
       safeCall("maximize");
     }
