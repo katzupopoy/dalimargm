@@ -628,6 +628,55 @@ body.noScroll{
 }
 #lobstyLauncher.pulse img{ animation: lobstyPulse 1.2s infinite; }
 
+/* ===== QTY INPUT (Create PO) ===== */
+.qtyInput{
+  width:140px;                /* wider for thousands */
+  min-width:120px;
+  max-width:160px;
+
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.18);
+
+  background:rgba(255,255,255,0.08);
+  color:var(--text);
+
+  text-align:center;
+  font-weight:900;
+  font-size:15px;
+  letter-spacing:0.5px;
+
+  outline:none;
+  transition:all 0.2s ease;
+}
+
+/* remove arrows on desktop (optional clean look) */
+.qtyInput::-webkit-outer-spin-button,
+.qtyInput::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qtyInput[type=number]{
+  -moz-appearance: textfield;
+}
+
+/* focus effect */
+.qtyInput:focus{
+  border-color:var(--green);
+  background:rgba(250,204,21,0.08);
+  box-shadow:0 0 0 3px rgba(250,204,21,0.25);
+}
+
+/* mobile friendly */
+@media(max-width:600px){
+  .qtyInput{
+    width:110px;
+    min-width:100px;
+    font-size:14px;
+  }
+}
+
 </style>
 </head>
 
@@ -1115,24 +1164,36 @@ if(sb){
 }
 
 function jumpToItem(cat, name){
-  const box = document.getElementById("suggestBox");
-  const input = document.getElementById("searchInput");
+  const boxMain = document.getElementById("suggestBox");
+  const boxSide = document.getElementById("sidebarSuggestBox");
 
-  box.style.display = "none";
-  input.value = "";
+  const mainInput = document.getElementById("searchInput");
+  const sideInput = document.getElementById("sidebarSearchInput");
 
-  // find item price
+  // ✅ hide suggestion dropdowns
+  if(boxMain) boxMain.style.display = "none";
+  if(boxSide) boxSide.style.display = "none";
+
+  // ✅ clear BOTH search inputs (removes "history")
+  if(mainInput) mainInput.value = "";
+  if(sideInput) sideInput.value = "";
+
+  // ✅ reset suggestion state
+  selectedSuggestIndex = -1;
+  currentSuggestions = [];
+
+  // find item
   const item = (products[cat] || []).find(p => p.name === name);
   if(!item) return;
 
-  // 🔥 AUTO ADD TO CART (1 qty)
+  // auto add
   addToCart(cat, item.name, item.price);
 
-  // optional: switch to that category visually
+  // switch category visually
   const li = document.querySelector(`#menu li[data-cat="${cat}"]`);
   showCategory(cat, li);
 
-  // optional: clear results view
+  // refresh view
   renderCurrent();
 }
 
@@ -1181,21 +1242,27 @@ function renderUniversalResults(q){
 
 // close suggestions when clicking outside
 document.addEventListener("click", (e)=>{
-  const box = document.getElementById("suggestBox");
-  const wrap = document.querySelector(".searchWrap");
-  if(!box || !wrap) return;
-  if(!wrap.contains(e.target)) box.style.display = "none";
+  const boxMain = document.getElementById("suggestBox");
+  const boxSide = document.getElementById("sidebarSuggestBox");
+
+  const wrapMain = document.querySelector(".topbar .searchWrap");
+  const wrapSide = document.querySelector(".sidebarSearchWrap");
+
+  if(wrapMain && boxMain && !wrapMain.contains(e.target)) boxMain.style.display = "none";
+  if(wrapSide && boxSide && !wrapSide.contains(e.target)) boxSide.style.display = "none";
 });
 
 function updateCartCount(){
   const countEl = document.getElementById("cartCount");
   if(!countEl) return;
 
-  const totalQty = cart.reduce((sum, it) => sum + (it.qty || 0), 0);
-  countEl.textContent = totalQty;
+  // ✅ show number of ordered items (unique items)
+  const itemCount = cart.length;
+
+  countEl.textContent = itemCount;
 
   // hide badge when empty
-  countEl.style.display = totalQty > 0 ? "inline-block" : "none";
+  countEl.style.display = itemCount > 0 ? "inline-block" : "none";
 }
 
 function addMoreItems(){
@@ -1224,12 +1291,20 @@ function openSidebar(){
   ov.classList.add("show");
   document.body.classList.add("noScroll");
 }
+
 function closeSidebarUI(){
   const sb = document.querySelector(".sidebar");
   const ov = document.getElementById("overlay");
+
   sb.classList.remove("open");
   ov.classList.remove("show");
   document.body.classList.remove("noScroll");
+
+  // ✅ clear sidebar search when closing
+  const s = document.getElementById("sidebarSearchInput");
+  const sbx = document.getElementById("sidebarSuggestBox");
+  if(s) s.value = "";
+  if(sbx) sbx.style.display = "none";
 }
 
 document.getElementById("menuToggle").addEventListener("click", function(){
@@ -1858,12 +1933,13 @@ function refreshCartUI(){
 
   let total = 0;
 
-  cart.forEach(item=>{
+  cart.forEach((item, index)=>{
     const line = numPrice(item.price) * item.qty;
     total += line;
 
     const row = document.createElement("div");
-    row.style.cssText = "display:flex; justify-content:space-between; gap:10px; align-items:center; padding:10px; border-radius:14px; border:1px solid rgba(255,255,255,0.10);";
+    row.style.cssText =
+      "display:flex; justify-content:space-between; gap:10px; align-items:center; padding:10px; border-radius:14px; border:1px solid rgba(255,255,255,0.10);";
 
     row.innerHTML = `
       <div style="min-width:0;">
@@ -1872,15 +1948,96 @@ function refreshCartUI(){
       </div>
 
       <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
-        <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;" onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',-1)">−</button>
-        <div style="min-width:28px; text-align:center; font-weight:900;">${item.qty}</div>
-        <button class="btn btnGhost" style="padding:8px 10px; border-radius:12px;" onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',1)">+</button>
+        <button class="btn btnGhost"
+          style="padding:8px 10px; border-radius:12px;"
+          onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',-1)">
+          −
+        </button>
+
+        <input type="number"
+         min="1"
+         step="1"
+         inputmode="numeric"
+         value="${item.qty}"
+         class="qtyInput"
+         data-idx="${index}"
+         onfocus="this.select()"
+         oninput="setQtyDraft(${index}, this.value)"
+         onblur="commitQty(${index}, this.value)"
+         onkeydown="qtyKeyDown(event, ${index}); if(event.key==='Enter'){ commitQty(${index}, this.value); }"
+        />
+
+        <button class="btn btnGhost"
+          style="padding:8px 10px; border-radius:12px;"
+          onclick="changeQty('${item.cat.replace(/'/g,"\\'")}','${item.name.replace(/'/g,"\\'")}',1)">
+          +
+        </button>
       </div>
     `;
+
     list.appendChild(row);
   });
 
   totalEl.textContent = formatPrice(total);
+}
+
+function updateCartTotalOnly(){
+  const totalEl = document.getElementById("cartTotal");
+  const empty = document.getElementById("cartEmpty");
+
+  let total = 0;
+  cart.forEach(it => total += numPrice(it.price) * (it.qty || 0));
+
+  if(totalEl) totalEl.textContent = formatPrice(total);
+  if(empty) empty.style.display = cart.length ? "none" : "block";
+}
+
+// while typing: update data + total only (NO re-render)
+function setQtyDraft(index, value){
+  if(!cart[index]) return;
+
+  // allow user to temporarily clear input while typing
+  if(String(value).trim() === "") return;
+
+  const qty = Number(value);
+  if(!Number.isFinite(qty)) return;
+
+  cart[index].qty = Math.max(1, Math.floor(qty));
+  updateCartCount();
+  updateCartTotalOnly();
+}
+
+// commit: apply final value and then re-render safely
+function commitQty(index, value){
+  if(!cart[index]) return;
+
+  const qty = Number(value);
+
+  if(!Number.isFinite(qty) || qty <= 0){
+    cart.splice(index, 1);
+  } else {
+    cart[index].qty = Math.floor(qty);
+  }
+
+  refreshCartUI();
+  updateCartCount();
+}
+
+function setQty(cat, name, value){
+  const idx = cart.findIndex(x => x.cat === cat && x.name === name);
+  if(idx === -1) return;
+
+  let qty = Number(value);
+
+  // prevent invalid values
+  if(!Number.isFinite(qty) || qty <= 0){
+    cart.splice(idx, 1);
+  } else {
+    cart[idx].qty = Math.floor(qty);
+  }
+
+  refreshCartUI();
+  updateCartCount();
 }
 
 function generatePO(){
@@ -2026,11 +2183,16 @@ function setActiveMenu(el){
 function showCategory(category, el){
   currentCategory = category;
   setActiveMenu(el);
+
   document.getElementById("searchInput").value = "";
 
-  // ✅ properly close sidebar + overlay
-  closeSidebarUI();
+  const s = document.getElementById("sidebarSearchInput");
+  if(s) s.value = "";
 
+  const sbx = document.getElementById("sidebarSuggestBox");
+  if(sbx) sbx.style.display = "none";
+
+  closeSidebarUI();
   renderCurrent();
 }
 
@@ -2038,6 +2200,36 @@ function toggleSidebar(){
   const sb = document.querySelector(".sidebar");
   if(sb.classList.contains("open")) closeSidebarUI();
   else openSidebar();
+}
+
+function clearSearchUI(){
+  const main = document.getElementById("searchInput");
+  const side = document.getElementById("sidebarSearchInput");
+  const boxMain = document.getElementById("suggestBox");
+  const boxSide = document.getElementById("sidebarSuggestBox");
+
+  if(main) main.value = "";
+  if(side) side.value = "";
+
+  if(boxMain) boxMain.style.display = "none";
+  if(boxSide) boxSide.style.display = "none";
+
+  selectedSuggestIndex = -1;
+  currentSuggestions = [];
+}
+
+function qtyKeyDown(e, index){
+  if(e.key !== "Enter") return;
+
+  e.preventDefault();
+
+  // focus next qty input
+  const inputs = document.querySelectorAll("#cartList .qtyInput");
+  const next = inputs[index + 1] || inputs[0];
+  if(next){
+    next.focus();
+    next.select?.();
+  }
 }
 
 function renderCurrent(){
