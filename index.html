@@ -323,7 +323,15 @@ body{ display:flex; background:var(--bg); color:var(--text); }
   align-items:start;
 }
 
-.card button{ width:100%; }
+.card button{width:auto;}
+
+/* Product Card Add Button */
+.btnAdd{
+  padding:8px 12px;
+  font-size:12.5px;
+  border-radius:12px;
+  min-width:90px;
+}
 
 /* RESPONSIVE ✅ */
 @media(max-width:900px){
@@ -1227,7 +1235,7 @@ function renderUniversalResults(q){
         <div style="font-size:12px; color:var(--muted); margin-bottom:10px;">${it.cat}</div>
         <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
           <div class="price">${formatPrice(it.price)}</div>
-          <button class="btn btnPrimary" style="padding:10px 12px; border-radius:12px;"
+          <button class="btn btnPrimary btnAdd"
             onclick="addToCart('${it.cat.replace(/'/g,"\\'")}','${it.name.replace(/'/g,"\\'")}','${it.price}')">
             ➕ Add
           </button>
