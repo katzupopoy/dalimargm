@@ -1994,16 +1994,20 @@ function refreshCartUI(){
 
   totalEl.textContent = formatPrice(total);
 
-    // ✅ auto-focus qty after adding item
+    // ✅ auto-scroll + auto-focus qty after adding item (mobile-friendly)
   if(__focusQtyIndex !== null){
     setTimeout(() => {
       const input = document.querySelector(`#cartList .qtyInput[data-idx="${__focusQtyIndex}"]`);
       if(input){
-        input.focus();
+        // 1) scroll the item into view (inside modal body)
+        input.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+
+        // 2) focus + select so user can type immediately
+        input.focus({ preventScroll: true });
         input.select?.();
       }
       __focusQtyIndex = null;
-    }, 0);
+    }, 50);
   }
 }
 
