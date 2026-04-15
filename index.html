@@ -784,26 +784,7 @@ body.noScroll{
 </div>
 
   <ul id="menu">
-    <li class="active" data-cat="Home" onclick="showCategory('Home', this)">🏠 <span>Home</span></li>
-    <li data-cat="Lobster Canton" onclick="showCategory('Lobster Canton', this)">🦞 <span>Lobster Canton</span></li>
-    <li data-cat="Ice Bag" onclick="showCategory('Ice Bag', this)">🧊 <span>Ice Bag</span></li>
-    <li data-cat="Plastic Cup" onclick="showCategory('Plastic Cup', this)">🥤 <span>Plastic Cup</span></li>
-    <li data-cat="Styro" onclick="showCategory('Styro', this)">📦 <span>Styro</span></li>
-    <li data-cat="Calypso" onclick="showCategory('Calypso', this)">🧴 <span>Calypso</span></li>
-    <li data-cat="Quality Plastic" onclick="showCategory('Quality Plastic', this)">🛍 <span>Quality Plastic</span></li>
-    <li data-cat="Paper Cup/Plate" onclick="showCategory('Paper Cup/Plate', this)">🍽 <span>Paper Cup/Plate</span></li>
-    <li data-cat="Cooler Cups" onclick="showCategory('Cooler Cups', this)">🧊 <span>Cooler Cups</span></li>
-    <li data-cat="Microwavable" onclick="showCategory('Microwavable', this)">🔥 <span>Microwavable</span></li>
-    <li data-cat="Pasta" onclick="showCategory('Pasta', this)">🍝 <span>Pasta</span></li>
-    <li data-cat="Beans & Grains" onclick="showCategory('Beans & Grains', this)"> 🫘 <span>Beans & Grains</span></li>
-    <li data-cat="Plastic Bag" onclick="showCategory('Plastic Bag', this)">🛒 <span>Plastic Bag</span></li>
-    <li data-cat="Bakery Supplies" onclick="showCategory('Bakery Supplies', this)">🧁 <span>Bakery Supplies</span></li>
-    <li data-cat="Juice Flavored" onclick="showCategory('Juice Flavored', this)">🧃 <span>Juice Flavored</span></li>
-    <li data-cat="Condiments" onclick="showCategory('Condiments', this)">🍅 <span>Condiments</span></li>
-    <li data-cat="Food Packaging & Service Supplies" onclick="showCategory('Food Packaging & Service Supplies', this)">📦 <span>Food Packaging & Service Supplies</span></li>
-    <li data-cat="Straw" onclick="showCategory('Straw', this)">🥤 <span>Straw</span></li>
-    <li data-cat="Sago Gulaman" onclick="showCategory('Sago Gulaman', this)">🥥 <span>Sago Gulaman</span></li>
-    <li data-cat="Rice" onclick="showCategory('Rice', this)">🍚 <span>Rice</span></li>
+
   </ul>
 </div>
 <div id="overlay"></div>
@@ -1012,17 +993,6 @@ window.addEventListener("load", updateLobstyVisibility);
 
 })();
 
-function allItemsFlat(){
-  const out = [];
-  Object.keys(products).forEach(cat=>{
-    if(cat === "Home") return;
-    (products[cat] || []).forEach(it=>{
-      out.push({ cat, name: it.name, price: it.price });
-    });
-  });
-  return out;
-}
-
 function showLobstyToast(){
   const t = document.getElementById("lobstyToast");
   if(!t) return;
@@ -1127,20 +1097,16 @@ function mirrorSidebarSearch(){
   handleUniversalSearchInput();    // reuse your existing search + suggestions
 }
 
-let allItemsCache = null;
-function getAllItems(){
-  if(!allItemsCache) allItemsCache = allItemsFlat();
-  return allItemsCache;
-}
-
 function handleUniversalSearchInput(){
   const q = document.getElementById("searchInput").value.trim().toLowerCase();
   const box = document.getElementById("suggestBox");
 
   if(!q){
-    box.style.display = "none";
-    renderCurrent(); // go back to normal current category view
-    return;
+   box.style.display = "none";
+   const sb = document.getElementById("sidebarSuggestBox");
+   if(sb) sb.style.display = "none";
+   renderCurrent();
+   return;
   }
 
   // suggestions (top 10)
@@ -1202,9 +1168,6 @@ function jumpToItem(cat, name){
   // switch category visually
   const li = document.querySelector(`#menu li[data-cat="${cat}"]`);
   showCategory(cat, li);
-
-  // refresh view
-  renderCurrent();
 }
 
 function renderUniversalResults(q){
@@ -1326,554 +1289,134 @@ document.getElementById("menuToggle").addEventListener("click", function(){
 // click outside closes
 document.getElementById("overlay").addEventListener("click", closeSidebarUI);
 
-/* ========= PRODUCTS (FULL LIST) ========= */
-const products = {
-  "Home": [],
+let products = { Home: [] };
+let currentCategory = "Home";
+let cart = [];
+let currentSuggestions = [];
+let selectedSuggestIndex = -1;
+let allItemsCache = null;
 
-  "Lobster Canton": [
-    {name:"1 Kilo Lobster Pancit Canton", price:"90.00"},
-    {name:"1/4 Lobster Pancit Canton", price:"300.00"},
-    {name:"100 grams Lobster Pancit Canton", price:"100.00"},
-    {name:"4x6 Lobster Pancit Canton", price:"270.00"},
-    {name:"5x5 Lobster Pancit Canton", price:"270.00"},
-    {name:"1/2 kilo Lobster Pancit Canton", price:"45.00"},
-    {name:"3x8 Lobster Pancit Canton", price:"270.00"}
-  ],
-
-  "Ice Bag": [
-    {name:"1 1/2 x10 Patok", price:"360.00"},
-    {name:"1 1/4 x10 Patok", price:"340.00"},
-    {name:"1 3/4x10 Patok", price:"390.00"},
-    {name:"1x10 Patok", price:"350.00"},
-    {name:"2 1/2x10 Patok", price:"260.00"},
-    {name:"2x10 Patok", price:"370.00"},
-    {name:"3x10 04 Calypso", price:"290.00"},
-    {name:"3x10 Patok", price:"270.00"},
-    {name:"Patok #2", price:"250.00"},
-    {name:"4x12 Patok", price:"365.00"},
-    {name:"4x12 Shure", price:"385.00"},
-    {name:"Coolers Ice Bag", price:"200.00"},
-    {name:"Patok # 1", price:"175.00"},
-    {name:"Victoria 1/2 Plastic", price:"310.00"},
-    {name:"Victoria 1/4 Plastic", price:"225.00"},
-    {name:"Victoria Kilo", price:"410.00"}
-  ],
-
-  "Microwavable": [
-    {name:"1 oz Micro", price:"850.00"},
-    {name:"2 oz Hinged Cup", price:"780.00"},
-    {name:"2 oz Micro", price:"780.00"},
-    {name:"3 oz Micro Hinged Cup", price:"900.00"},
-    {name:"3x4 04 Calypso", price:"110.00"},
-    {name:"4 oz Hinged Cup Lucky Box", price:"920.00"},
-    {name:"4 oz Micro", price:"920.00"},
-    {name:"5 oz Hinged Cup", price:"1100.00"},
-    {name:"1.5 w/ LID", price:"720.00"},
-    {name:"2.5 with LID", price:"1080.00"},
-    {name:"22 oz LID", price:"730.00"},
-    {name:"2D Bento Box", price:"1300.00"},
-    {name:"2D Black Microwavable", price:"1180.00"},
-    {name:"3D Black", price:"1430.00"},
-    {name:"3D White Microwavable", price:"1400.00"},
-    {name:"4D White Microwavable", price:"1480.00"},
-    {name:"Dome LID EZ", price:"2000.00"},
-    {name:"Flat Lid", price:"500.00"},
-    {name:"FTA", price:"1.18"},
-    {name:"FTB", price:"1.60"},
-    {name:"MB3 Bowl", price:"630.00"},
-    {name:"RE 1000 Microwavable", price:"1350.00"},
-    {name:"RE 1500", price:"1520.00"},
-    {name:"RE 1600", price:"1600.00"},
-    {name:"RE 2000 Microwavable", price:"1620.00"},
-    {name:"RE 2500 Microwavable", price:"2270.00"},
-    {name:"RE 2D", price:"1180.00"},
-    {name:"RE 3200 Belle", price:"1880.00"},
-    {name:"RE 3200 BNW White", price:"2425.00"},
-    {name:"RE 3200 SK2 Black", price:"2450.00"},
-    {name:"RE 3D", price:"1450.00"},
-    {name:"RE 4D", price:"1480.00"},
-    {name:"RE 5000 Belle", price:"2025.00"},
-    {name:"RE 5000 Microwavable", price:"2100.00"},
-    {name:"RE 5000 White Microwavable", price:"2820.00"},
-    {name:"RE400 Bibbo", price:"870.00"},
-    {name:"RE400 Microwavable", price:"890.00"},
-    {name:"RE500 Belle", price:"1030.00"},
-    {name:"RE500 Bibbo", price:"1000.00"},
-    {name:"RE500 Microwavable", price:"1080.00"},
-    {name:"RE750 Microwavable", price:"1270.00"},
-    {name:"RE750 Microwavable Trigrem", price:"1250.00"},
-    {name:"RO 1000 SK2", price:"1300.00"},
-    {name:"RO 1500 SK2", price:"1340.00"},
-    {name:"RO 2000 Microwavable", price:"1320.00"},
-    {name:"RO 250 Microwavable", price:"770.00"},
-    {name:"RO 2500 Microwavable", price:"1400.00"},
-    {name:"RO 3000 Microwavable", price:"1500.00"},
-    {name:"RO 750 Microwavable", price:"1220.00"},
-    {name:"RO10 Microwavable", price:"770.00"},
-    {name:"RO16 Microwavable", price:"980.00"},
-    {name:"RO250 Microwavable", price:"730.00"},
-    {name:"RO450 Microwavable", price:"880.00"},
-    {name:"Salad Cup 2.5", price:"1080.00"},
-    {name:"Salad Cup 3.5 Olympic", price:"810.00"},
-    {name:"Utility Tray", price:"1.20"},
-    {name:"MS750 Microwavable", price:"1100.00"},
-    {name:"MS1000 Microwavable", price:"1200.00"},
-    {name:"RE3200 Microwavable", price:"1725.00"},
-    {name:"RO 450 Belle", price:"880.00"},
-    {name:"220 CC Belle", price:"740.00"},
-    {name:"RE750 Bibbo", price:"1200.00"},
-    {name:"260 CC Belle", price:"0.00"},
-    {name:"390 CC Trigrem", price:"0.00"}
-  ],
-
-  "Plastic Cup": [
-    {name:"10 oz Pinoy Paper Cup", price:"750.00"},
-    {name:"10 oz Plastic Cup", price:"400.00"},
-    {name:"12 oz Master", price:"390.00"},
-    {name:"12 oz Pinoy Paper Cup", price:"850.00"},
-    {name:"12 oz Plastic Cup", price:"420.00"},
-    {name:"12oz Papercup Belle", price:"870.00"},
-    {name:"16 oz Plastic Cup Magnolia", price:"660.00"},
-    {name:"16 oz Plastic Cup Master", price:"670.00"},
-    {name:"3 oz Plastic Cup", price:"240.00"},
-    {name:"3 oz Salad Cup", price:"520.00"},
-    {name:"5 oz Plastic Cup", price:"280.00"},
-    {name:"6 oz Plastic Cup", price:"290.00"},
-    {name:"7 oz Plastic Cup", price:"300.00"},
-    {name:"8 oz Plastic Cup", price:"310.00"},
-    {name:"1.5 Yellow cup", price:"220.00"},
-    {name:"16 oz LID", price:"620.00"}
-  ],
-
-  "Styro": [
-    {name:"101 Ice Chest", price:"135.00"},
-    {name:"102 Ice Chest", price:"190.00"},
-    {name:"103 Ice Chest", price:"210.00"},
-    {name:"105 Ice Chest", price:"245.00"},
-    {name:"Box 2 Ice Chest", price:"230.00"},
-    {name:"Box 3 Ice Chest", price:"290.00"},
-    {name:"Bowl 12 oz Styro", price:"850.00"},
-    {name:"Bowl 12oz QC", price:"720.00"},
-    {name:"Bowl 12oz Winwin", price:"780.00"},
-    {name:"Bowl MB3", price:"630.00"},
-    {name:"Double Handle Ice Chest", price:"240.00"},
-    {name:"Ice Chest Large", price:"190.00"},
-    {name:"Ice Chest Medium", price:"165.00"},
-    {name:"Ice Chest Small", price:"135.00"},
-    {name:"Round Ice Chest 202", price:"160.00"},
-    {name:"Spaghetti Box Styro Dura", price:"0.95"},
-    {name:"Spaghetti Box Styro Pink", price:"1.20"},
-    {name:"Styro Cup", price:"950.00"},
-    {name:"Styro Cup Coex", price:"950.00"},
-    {name:"Styro Lunch Box 1", price:"2.00"},
-    {name:"Styro Lunch Box 2", price:"1.80"},
-    {name:"Styro Lunch Box 3", price:"1.90"},
-    {name:"StyroCup M33", price:"630.00"},
-    {name:"StyroPlate", price:"1.20"},
-    {name:"SW 101", price:"135.00"},
-    {name:"SW 102", price:"165.00"}
-  ],
-
-  "Calypso": [
-    {name:"10x14 04 Calypso", price:"250.00"},
-    {name:"10x14 HDC", price:"220.00"},
-    {name:"12x18 04 Calypso", price:"475.00"},
-    {name:"12x18 HDC", price:"375.00"},
-    {name:"2 1/2 x 10 04 Calypso", price:"250.00"},
-    {name:"2x3 VSP", price:"135.00"},
-    {name:"4x10 04 Calypso", price:"85.00"},
-    {name:"4x8 04 Calypso", price:"120.00"},
-    {name:"5x10 04 Calypso", price:"90.00"},
-    {name:"5x8 04 Calypso", price:"75.00"},
-    {name:"6x10 04 Calypso", price:"115.00"},
-    {name:"6x10 HDC", price:"90.00"},
-    {name:"6x12 04 Calypso", price:"165.00"},
-    {name:"8x11 HDC", price:"115.00"},
-    {name:"8x12 04 Calypso", price:"170.00"},
-    {name:"8x12 HDC", price:"90.00"},
-    {name:"8x16 04 Calypso", price:"215.00"},
-    {name:"9x14 04 Calypso", price:"280.00"},
-    {name:"5x12 04 Calypso", price:"165.00"},
-    {name:"2x10 04 Calypso", price:"200.00"}
-  ],
-
-  "Quality Plastic": [
-    {name:"10x14 Quality", price:"165.00"},
-    {name:"16x24 Quality", price:"75.00"},
-    {name:"16x24 RBD", price:"72.00"},
-    {name:"16x24 Roll", price:"78.00"},
-    {name:"20x30 Quality", price:"135.00"},
-    {name:"6x10 Quality", price:"63.00"},
-    {name:"8x11 Quality Roll", price:"90.00"},
-    {name:"Large Quality", price:"565.00"},
-    {name:"Medium Quality", price:"320.00"},
-    {name:"Mini Quality", price:"105.00"},
-    {name:"Tiny Quality", price:"170.00"},
-    {name:"8x11 Quality", price:"90.00"},
-    {name:"Tiny Quality Plain", price:"163.00"},
-    {name:"Mini Quality Plain", price:"98.00"},
-    {name:"Medium Quality Plain", price:"306.00"},
-    {name:"Large Quality Plain", price:"546.00"}
-  ],
-
-  "Paper Cup/Plate": [
-    {name:"16 oz Paper Cup", price:"1300.00"},
-    {name:"22 oz Paper Cup", price:"1960.00"},
-    {name:"22 oz PP", price:"1960.00"},
-    {name:"5 oz Paper Cup", price:"500.00"},
-    {name:"5 oz Papercup Belle", price:"470.00"},
-    {name:"6.5 Paper Cup Belle", price:"500.00"},
-    {name:"6.5 Paper cup Trigrem", price:"530.00"},
-    {name:"6.5 Pinoy Paper Cup", price:"520.00"},
-    {name:"8 oz Paper Cup Belle", price:"570.00"},
-    {name:"8 oz Paper Cup Trigrem", price:"640.00"},
-    {name:"8 oz Pinoy Paper Cup", price:"640.00"},
-    {name:"10 oz Paper Cup Belle", price:"770.00"},
-    {name:"Footlong Paper Plate", price:"230.00"},
-    {name:"Hotdog Box", price:"1950.00"},
-    {name:"Hotdog Ordinary Paper Plate", price:"230.00"},
-    {name:"Hotdog Silver Paper Plate", price:"240.00"},
-    {name:"Kikiam Ordinary", price:"200.00"},
-    {name:"Kikiam Silver", price:"200.00"},
-    {name:"LB1 Paper", price:"2000.00"},
-    {name:"LB2 Paper", price:"1980.00"},
-    {name:"LF 500", price:"1350.00"},
-    {name:"Meal Box Apple", price:"1150.00"},
-    {name:"MealBox Silver Coated", price:"900.00"},
-    {name:"MealBox Trigrem", price:"1200.00"},
-    {name:"Noodle Box", price:"1.35"},
-    {name:"Paper Bag #1", price:"1780.00"},
-    {name:"Paper Bag #2", price:"1710.00"},
-    {name:"Paper Bag #3", price:"1650.00"},
-    {name:"Paper Bag #4", price:"1630.00"},
-    {name:"Paper Bag #5", price:"1550.00"},
-    {name:"Paper Bag #6", price:"1620.00"},
-    {name:"Paper Bag 3/4", price:"1520.00"},
-    {name:"Silver Paper Plate Apple", price:"330.00"},
-    {name:"Silver Paper Plate Medium", price:"300.00"},
-    {name:"Silver Paper Plate Belle", price:"290.00"},
-    {name:"Silver Paper Plate Uno", price:"260.00"},
-    {name:"SpagBOX", price:"1270.00"},
-    {name:"SpagBox Paper Apple Silver", price:"900.00"},
-    {name:"Spagbox Brown Silver", price:"900.00"},
-    {name:"SpagBox Paper 1000pcs", price:"2100.00"},
-    {name:"Spagbox Paper White Apple", price:"1150.00"}
-  ],
-
-  "Cooler Cups": [
-    {name:"220 CC", price:"860.00"},
-    {name:"260 CC", price:"820.00"},
-    {name:"320 CC", price:"560.00"},
-    {name:"320 CC PP 1000k pcs", price:"950.00"},
-    {name:"320CC 500pcs", price:"580.00"},
-    {name:"320CC Belle", price:"900.00"},
-    {name:"390 CC 1000pcs", price:"1050.00"},
-    {name:"390 CC 500", price:"590.00"},
-    {name:"390 CC Belle", price:"1000.00"},
-    {name:"390 CC LID", price:"840.00"},
-    {name:"390 CC Pinoy", price:"660.00"},
-    {name:"390 CC Texas", price:"660.00"},
-    {name:"390 CC Trigrem 500pcs", price:"600.00"},
-    {name:"390cc Belle 1000pcs", price:"950.00"},
-    {name:"520 CC", price:"720.00"},
-    {name:"520 CC LID", price:"900.00"},
-    {name:"520 CC Trigrem 500pcs", price:"680.00"},
-    {name:"CC 350", price:"1700.00"},
-    {name:"CC 500", price:"3400.00"},
-    {name:"CC 700", price:"1600.00"},
-    {name:"U700 Milk Tea Cup", price:"1750.00"},
-    {name:"Y Dome LID", price:"650.00"},
-    {name:"Y Flat", price:"850.00"},
-    {name:"Y320 Milktea Cup", price:"1600.00"},
-    {name:"Y360 Milk Tea Cup", price:"1600.00"},
-    {name:"Y500 Milk Tea Cup", price:"2300.00"},
-    {name:"Y700 Milk Tea Cup", price:"1600.00"},
-    {name:"Y800", price:"850.00"}
-  ],
-
-  "Pasta": [
-    {name:"3Q / 6 Palabok", price:"368.00"},
-    {name:"3Q Bihon / 6 kilos", price:"372.00"},
-    {name:"3Q Bihon 15 kilos", price:"930.00"},
-    {name:"Elbow Ridge 1/4 Macaroni", price:"295.00"},
-    {name:"Elbow Ridge Macaroni", price:"265.00"},
-    {name:"Elbow Small 1/4 Macaroni", price:"295.00"},
-    {name:"Elbow Small Macaroni", price:"260.00"},
-    {name:"Flat Spaghetti", price:"1685.00"},
-    {name:"Ideal Spaghetti", price:"720.00"},
-    {name:"Lasagna", price:"1760.00"},
-    {name:"LOB Macaroni N/R", price:"260.00"},
-    {name:"LOS Macaroni", price:"260.00"},
-    {name:"Misua 1/2", price:"65.00"},
-    {name:"Misua Kilo", price:"65.00"},
-    {name:"PR Macaroni", price:"265.00"},
-    {name:"Salad Macaroni", price:"265.00"},
-    {name:"Shell Big Macaroni", price:"265.00"},
-    {name:"Shell Small 1/4 Macaroni", price:"295.00"},
-    {name:"Shell Small Macaroni", price:"265.00"},
-    {name:"Sotanghon 1/2", price:"93.00"},
-    {name:"Sotanghon 1/2 Premium Box", price:"1730.00"},
-    {name:"Sotanghon 1/4", price:"93.00"},
-    {name:"Sotanghon 1/4 Premium Box", price:"1780.00"},
-    {name:"Sotanghon 100 Grams", price:"100.00"},
-    {name:"Sotanghon 50 grams", price:"100.00"},
-    {name:"Sotanghon Kilo", price:"93.00"},
-    {name:"Sotanghon Kilo Premium Box", price:"1730.00"},
-    {name:"Sotanghon Komeya 50g", price:"100.00"},
-    {name:"Sunmac Combo Spaghetti", price:"895.00"},
-    {name:"Sunmac Spaghetti", price:"545.00"},
-    {name:"Super Q Bihon 15 kls", price:"1175.00"},
-    {name:"Super Q Palabok 15 kls", price:"1175.00"},
-    {name:"Super Q Palabok 6 kilos", price:"430.00"},
-    {name:"Twist Macaroni", price:"265.00"}
-  ],
-
-  "Beans & Grains": [
-    {name:"80/90 Mani", price:"4200.00"},
-    {name:"Atsuete Seeds", price:"400.00"},
-    {name:"Beans", price:"2150.00"},
-    {name:"Monggo Labo", price:"3200.00"},
-    {name:"Pop Corn MQ", price:"1080.00"},
-    {name:"RED Munggo", price:"2200.00"},
-    {name:"Sesame Seeds", price:"220.00"},
-    {name:"Skinless Mani", price:"2300.00"}
-  ],
-
-  "Plastic Bag": [
-    {name:"8x11 JR", price:"96.00"},
-    {name:"Large JR A/C Plastic Bag", price:"830.00"},
-    {name:"Large JR Transparent", price:"840.00"},
-    {name:"Large JR White Plastic Bag", price:"830.00"},
-    {name:"Large Melon Plastic Bag", price:"360.00"},
-    {name:"Large Pinoy Plastic Bag", price:"183.00"},
-    {name:"Large Snow Bird Plastic Bag", price:"1080.00"},
-    {name:"Large Vega Transparent", price:"400.00"},
-    {name:"Medium JR A/C Plastic Bag", price:"440.00"},
-    {name:"Medium JR Transparent Plastic", price:"470.00"},
-    {name:"Medium JR White Plastic Bag", price:"470.00"},
-    {name:"Medium Melon Plastic Bag", price:"230.00"},
-    {name:"Medium Pinoy Plastic Bag", price:"110.00"},
-    {name:"Medium Snow Bird Plastic Bag", price:"610.00"},
-    {name:"Medium Vega A/C", price:"210.00"},
-    {name:"Medium Vega Transparent", price:"230.00"},
-    {name:"Micro JR Plastic Bag", price:"105.00"},
-    {name:"Mini Gilas Plastic Bag", price:"85.00"},
-    {name:"Mini JR A/C Plastic Bag", price:"160.00"},
-    {name:"Mini JR Transparent Plastic Bag", price:"180.00"},
-    {name:"Mini JR White Plastic Bag", price:"180.00"},
-    {name:"Mini Melon Plastic Bag", price:"80.00"},
-    {name:"Mini Pinoy Plastic Bag", price:"50.00"},
-    {name:"Mini Vega Transparent", price:"90.00"},
-    {name:"Stripe XL", price:"660.00"},
-    {name:"Tiny JR A/C Plastic Bag", price:"245.00"},
-    {name:"Tiny JR Transparent Plastic Bag", price:"255.00"},
-    {name:"Tiny JR White Plastic Bag", price:"255.00"},
-    {name:"Tiny Melon Plastic Bag", price:"110.00"},
-    {name:"Tiny Melon Transparent", price:"110.00"},
-    {name:"Tiny Pinoy Plastic Bag", price:"55.00"},
-    {name:"Tiny Snow Bird Plastic Bag", price:"340.00"},
-    {name:"Tiny Vega A/C", price:"105.00"},
-    {name:"Tiny Vega Transparent", price:"115.00"}
-  ],
-
-  "Bakery Supplies": [
-    {name:"All Purpose Flour", price:"1270.00"},
-    {name:"Calumet", price:"2080.00"},
-    {name:"Cassava Starch 50 kilo", price:"2100.00"},
-    {name:"Cocoa", price:"1250.00"},
-    {name:"Cornstarch", price:"1000.00"},
-    {name:"Garlic Powder", price:"200.00"},
-    {name:"Golden Brown Sugar", price:"4200.00"},
-    {name:"Harina", price:"740.00"},
-    {name:"Iodized Salt", price:"310.00"},
-    {name:"Kings 1st Class", price:"930.00"},
-    {name:"Kings Glutinous Rice Powder", price:"740.00"},
-    {name:"Light Brown Sugar", price:"4000.00"},
-    {name:"Lopez White Sugar", price:"4400.00"},
-    {name:"Negro Sugar", price:"4300.00"},
-    {name:"Pasas", price:"790.00"},
-    {name:"Rice Flour", price:"660.00"},
-    {name:"Sugar White VMC", price:"4950.00"},
-    {name:"Washed Sugar", price:"2900.00"}
-  ],
-
-  "Juice Flavored": [
-    {name:"Apple Tasty Palamig", price:"2020.00"},
-    {name:"Blue Lemonade Tasty Palamig", price:"2270.00"},
-    {name:"Buko Juice Tasty Palamig", price:"1900.00"},
-    {name:"Buko Pandan Tasty Palamig", price:"1870.00"},
-    {name:"Chocolate Tasty Palamig", price:"2600.00"},
-    {name:"Cucumber Tasty Palamig", price:"2520.00"},
-    {name:"Four Season Tasty Palamig", price:"2170.00"},
-    {name:"Grapes Tasty Palamig", price:"2000.00"},
-    {name:"Lemon Ice Tea Tasty Palamig", price:"2270.00"},
-    {name:"Lychee Tasty Palamig", price:"2270.00"},
-    {name:"Magic Water Tasty Palamig", price:"1920.00"},
-    {name:"Mango Tasty Palamig", price:"2250.00"},
-    {name:"Melon Tasty Palamig", price:"1920.00"},
-    {name:"Orange Tasty Palamig", price:"2550.00"},
-    {name:"Pineapple Tasty Palamig", price:"1970.00"},
-    {name:"Red Ice Tea Tasty Palamig", price:"2120.00"},
-    {name:"Sagot Gulaman Tasty Palamig", price:"1870.00"}
-  ],
-
-  "Condiments": [
-    {name:"Bagoong Big", price:"440.00"},
-    {name:"Bagoong Small", price:"470.00"},
-    {name:"Bread Crumbs 230 grams", price:"24.00"},
-    {name:"Bread Crumbs 80 grams", price:"11.00"},
-    {name:"Bread Crumbs Kilo", price:"91.00"},
-    {name:"Bread Crumbs Kilo Robert", price:"84.00"},
-    {name:"Cheese Miss 300g", price:"125.00"},
-    {name:"Cheese Miss 200g", price:"130.00"},
-    {name:"Cheese Powder", price:"105.00"},
-    {name:"Chili Flakes", price:"190.00"},
-    {name:"Chili Powder", price:"170.00"},
-    {name:"Coco Mama Gata", price:"1650.00"},
-    {name:"Cream Corn", price:"880.00"},
-    {name:"Freeto Big", price:"3100.00"},
-    {name:"Freeto Small", price:"1080.00"},
-    {name:"Fried Garlic Lugaw", price:"115.00"},
-    {name:"Fried Garlic Ordinary", price:"105.00"},
-    {name:"Fried Garlic Yellow", price:"130.00"},
-    {name:"Laurel Paminta", price:"300.00"},
-    {name:"Master Chef Malagkit Powder", price:"700.00"},
-    {name:"Master Condensada Kilo", price:"2000.00"},
-    {name:"Master Condensada Small", price:"1675.00"},
-    {name:"Ok Cheeze Big Box", price:"1284.00"},
-    {name:"Ok Cheeze Small Box", price:"2160.00"},
-    {name:"Paminta Pino", price:"320.00"},
-    {name:"Patis Big", price:"470.00"},
-    {name:"Patis Small", price:"470.00"},
-    {name:"Reno Big", price:"2780.00"},
-    {name:"Reno Small", price:"1240.00"},
-    {name:"Rock Salt", price:"290.00"},
-    {name:"Slice Mushroom", price:"870.00"},
-    {name:"Sour Cream", price:"155.00"},
-    {name:"Sweet Coco Rice", price:"1130.00"},
-    {name:"Vetsin", price:"1400.00"},
-    {name:"Whole Corn", price:"850.00"},
-    {name:"Cheese Miss BBQ Powder", price:"160.00"}
-  ],
-
-  "Food Packaging & Service Supplies": [
-    {name:"BBQ Stick 10", price:"1300.00"},
-    {name:"BBQ Stick 12", price:"2000.00"},
-    {name:"BBQ Stick 6", price:"1000.00"},
-    {name:"BBQ Stick 8", price:"1200.00"},
-    {name:"Bilao #10 Belle", price:"530.00"},
-    {name:"Bilao #10 SK2", price:"490.00"},
-    {name:"Bilao #12 Belle", price:"580.00"},
-    {name:"Bilao #12 SK2", price:"400.00"},
-    {name:"Bilao #14 Belle", price:"485.00"},
-    {name:"Bilao #14 SK2", price:"490.00"},
-    {name:"Bilao #16 Belle", price:"600.00"},
-    {name:"Bilao #16 SK2", price:"700.00"},
-    {name:"Bilao #18 Belle", price:"590.00"},
-    {name:"Bilao #18 SK2", price:"900.00"},
-    {name:"Burger Box", price:"1900.00"},
-    {name:"Burger Plastic Plain", price:"200.00"},
-    {name:"Burger Plastic Printed", price:"240.00"},
-    {name:"Chlorine", price:"3000.00"},
-    {name:"Chopstick", price:"2440.00"},
-    {name:"Cling Wrap 30 Meters Box", price:"1350.00"},
-    {name:"Cling Wrap 300 Meters Sulit", price:"1350.00"},
-    {name:"Cling Wrap 300m Croco", price:"2340.00"},
-    {name:"Cling Wrap Croco", price:"1980.00"},
-    {name:"Cutlery Set 3pcs", price:"820.00"},
-    {name:"Facial Tissue", price:"103.00"},
-    {name:"Foil 300 Sulit Box", price:"2200.00"},
-    {name:"Foil 300m Croco", price:"3000.00"},
-    {name:"Foil 5 Meters Box", price:"528.00"},
-    {name:"Foil 8 Meters Box", price:"1056.00"},
-    {name:"Food Color Egg Yellow", price:"75.00"},
-    {name:"Food Color Orange", price:"73.00"},
-    {name:"Fork Belle", price:"770.00"},
-    {name:"Fork Belle Box", price:"790.00"},
-    {name:"Fork Black Party Pack", price:"860.00"},
-    {name:"Fork Chibog", price:"760.00"},
-    {name:"Fork Lucky Sack", price:"800.00"},
-    {name:"Fork Lucky Star Box", price:"820.00"},
-    {name:"Fork Trigrem", price:"670.00"},
-    {name:"Goma", price:"170.00"},
-    {name:"Hand Gloves Plastic", price:"2400.00"},
-    {name:"Hard Twine Kilo", price:"640.00"},
-    {name:"Oxalic", price:"1800.00"},
-    {name:"Peanut Jar Large", price:"5.80"},
-    {name:"Peanut Jar Medium", price:"4.20"},
-    {name:"Peanut Jar Small", price:"3.80"},
-    {name:"Plate Holder", price:"864.00"},
-    {name:"Round Plate", price:"200.00"},
-    {name:"Sfork Luckystar Box", price:"780.00"},
-    {name:"Softie Twine 10", price:"490.00"},
-    {name:"Softie Twine 20", price:"510.00"},
-    {name:"Spoon Belle", price:"820.00"},
-    {name:"Spoon Belle Box", price:"790.00"},
-    {name:"Spoon Black", price:"800.00"},
-    {name:"Spoon Blue", price:"800.00"},
-    {name:"Spoon Chibog", price:"760.00"},
-    {name:"Spoon Lucky Sack", price:"800.00"},
-    {name:"Spoon Lucky Star Box", price:"820.00"},
-    {name:"Spoon Trigrem", price:"580.00"},
-    {name:"Square Plate", price:"170.00"},
-    {name:"Stirrer Pack", price:"100.00"},
-    {name:"Sundae Spoon sack", price:"850.00"},
-    {name:"Sundae Spoon Trigrem", price:"880.00"},
-    {name:"Tina", price:"1050.00"},
-    {name:"Tissue Precut", price:"240.00"},
-    {name:"Tissue Roll", price:"85.00"},
-    {name:"Toothpick Carved by Box", price:"2900.00"},
-    {name:"Toy Spoon", price:"750.00"},
-    {name:"Toy Spoon Bell", price:"750.00"},
-    {name:"Toy Spoon White", price:"700.00"},
-    {name:"Trash Bag Large", price:"200.00"},
-    {name:"Trash Bag Medium", price:"300.00"},
-    {name:"Trash Bag Small", price:"210.00"},
-    {name:"Trash Bag XL", price:"310.00"},
-    {name:"Trash Bag XXL", price:"400.00"}
-  ],
-
-  "Straw": [
-    {name:"Bending Straw", price:"1300.00"},
-    {name:"Hard Straw", price:"140.00"},
-    {name:"Hard Straw Green", price:"115.00"},
-    {name:"Sagu Straw Black", price:"145.00"},
-    {name:"Sagu Straw Green", price:"145.00"},
-    {name:"Sagu Straw Individual Wrap", price:"1550.00"},
-    {name:"Sagu Straw Red", price:"145.00"},
-    {name:"Straw Angry Bird", price:"610.00"},
-    {name:"Straw Jumbo", price:"810.00"},
-    {name:"Straw Multi", price:"580.00"},
-    {name:"Straw Olympic", price:"630.00"},
-    {name:"Stripe Jumbo", price:"1050.00"}
-  ],
-
-  "Sago Gulaman": [
-    {name:"Coffee Jelly", price:"142.00"},
-    {name:"Mr Gulaman Mango", price:"142.00"},
-    {name:"MR. Gulaman Black", price:"142.00"},
-    {name:"MR. Gulaman Buko Pandan", price:"142.00"},
-    {name:"MR. Gulaman Green", price:"142.00"},
-    {name:"MR. Gulaman Orange", price:"142.00"},
-    {name:"MR. Gulaman Red", price:"142.00"},
-    {name:"MR. Gulaman White", price:"142.00"},
-    {name:"MR. Gulaman Yellow", price:"135.00"},
-    {name:"Sago Big", price:"3700.00"},
-    {name:"Sago Medium", price:"3700.00"},
-    {name:"Sago Small", price:"3700.00"}
-  ],
-
-  "Rice": [
-    {name:"Hasmine Rice", price:"1050.00"},
-    {name:"Jasmine Rice Yellow", price:"1000.00"},
-    {name:"Malagkit Rice", price:"2300.00"},
-    {name:"Malagkit Rice 25kls", price:"1250.00"},
-    {name:"Rice Maalsa", price:"900.00"}
-  ],
+const categoryIcons = {
+  "Home": "🏠",
+  "Lobster Canton": "🦞",
+  "Ice Bag": "🧊",
+  "Plastic Cup": "🥤",
+  "Styro": "📦",
+  "Calypso": "🧴",
+  "Quality Plastic": "🛍",
+  "Paper Cup/Plate": "🍽",
+  "Cooler Cups": "🧊",
+  "Microwavable": "🔥",
+  "Hinged Micro": "📦",
+  "LID Cup": "🥤",
+  "Pasta": "🍝",
+  "Dry Goods": "🫘",
+  "Plastic Bag": "🛒",
+  "Bakery Supplies": "🧁",
+  "Juice Flavored": "🧃",
+  "Condiments": "🍅",
+  "Food Packaging & Service Supplies": "📦",
+  "Straw": "🥤",
+  "Sago Gulaman": "🥥",
+  "Rice": "🍚"
 };
 
+
+function normalizeProductsFromGMCore(data) {
+  const grouped = { Home: [] };
+  const items = Array.isArray(data?.itemsMaster) ? data.itemsMaster : [];
+
+  items.forEach(item => {
+    const category = (item.category || "Uncategorized").trim();
+    const name = (item.name || "").trim();
+    const price = Number(item.price || 0);
+
+    if (!name) return;
+
+    if (!grouped[category]) grouped[category] = [];
+    grouped[category].push({
+      name,
+      price: price.toFixed(2)
+    });
+  });
+
+  return grouped;
+}
+
+function rebuildMenu() {
+  const menu = document.getElementById("menu");
+  if (!menu) return;
+
+  const cats = ["Home", ...Object.keys(products).filter(c => c !== "Home")];
+
+  menu.innerHTML = cats.map((cat, index) => `
+    <li class="${index === 0 ? "active" : ""}"
+        data-cat="${cat}"
+        onclick="showCategory('${cat.replace(/'/g, "\\'")}', this)">
+      ${categoryIcons[cat] || "📁"} <span>${cat}</span>
+    </li>
+  `).join("");
+}
+
+async function loadProductsFromJson() {
+  try {
+    const GMCORE_JSON_URL = "gmcore-products.json";
+    const res = await fetch(`${GMCORE_JSON_URL}?v=${Date.now()}`, {
+     cache: "no-store"
+    });
+
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const data = await res.json();
+    products = normalizeProductsFromGMCore(data);
+    allItemsCache = null;
+
+    rebuildMenu();
+
+    if (!products[currentCategory]) {
+      currentCategory = "Home";
+    }
+
+    renderCurrent();
+  } catch (err) {
+    console.error("Failed to load GMCore JSON:", err);
+    const page = document.getElementById("pageArea");
+    if (page) {
+      page.innerHTML = `
+        <div class="empty">
+          Failed to load updated items/prices from GMCore JSON.
+        </div>
+      `;
+    }
+  }
+}
+
+function allItemsFlat() {
+  const out = [];
+  Object.keys(products).forEach(cat => {
+    if (cat === "Home") return;
+    (products[cat] || []).forEach(it => {
+      out.push({ cat, name: it.name, price: it.price });
+    });
+  });
+  return out;
+}
+
+function getAllItems() {
+  if (!allItemsCache) allItemsCache = allItemsFlat();
+  return allItemsCache;
+}
+
+async function initApp() {
+  await loadProductsFromJson();
+
+  // auto refresh every 30 seconds
+  setInterval(loadProductsFromJson, 30000);
+}
+
+initApp();
+
 /* ========= ORDER / CART ========= */
-let cart = []; // {cat, name, price, qty}
 let __focusQtyIndex = null;
 
 let scrollYBeforeModal = 0;
@@ -2217,11 +1760,6 @@ function sendSMS(){
 
   window.location.href = smsLink;
 }
-/* ========= STATE ========= */
-let currentCategory = "Home";
-
-let selectedSuggestIndex = -1;
-let currentSuggestions = [];
 
 /* ========= HELPERS ========= */
 function formatPrice(p){
@@ -2497,8 +2035,6 @@ document.addEventListener("keydown", function(e){
 
 });
 
-/* Load Home */
-renderCurrent();
 
 </script>
   <!-- your other scripts -->
