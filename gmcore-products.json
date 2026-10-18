@@ -1,8 +1,7 @@
-
 {
   "fileType": "DALIMAR_AGENT_MASTER_UPDATE",
   "version": 2,
-  "exportedAt": "2026-10-18T06:08:01.000Z",
+  "exportedAt": "2026-10-18T06:16:00.000Z",
   "sourceApp": "DalimarGM Core",
   "routeCount": 6,
   "itemsMaster": [
@@ -3062,13 +3061,13 @@
     },
     {
       "name": "TC500",
-      "category": "",
+      "category": "Plastic Cup",
       "price": 1300,
       "note": ""
     },
     {
       "name": "TC700",
-      "category": "",
+      "category": "Plastic Cup",
       "price": 1700,
       "note": ""
     },
@@ -3134,7 +3133,7 @@
     },
     {
       "name": "Siomai Fork Sack",
-      "category": "",
+      "category": "Condiments",
       "price": 1800,
       "note": ""
     },
@@ -3146,301 +3145,301 @@
     },
     {
       "name": "390cc 1000pcs Suki",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 900,
       "note": ""
     },
     {
       "name": "4x6 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 130,
       "note": ""
     },
     {
       "name": "3 oz Paper cup",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 770,
       "note": ""
     },
     {
       "name": "Paper Bag #16",
-      "category": "",
+      "category": "Paper Bag",
       "price": 1180,
       "note": ""
     },
     {
       "name": "Straw Pacman",
-      "category": "",
+      "category": "Straw",
       "price": 480,
       "note": ""
     },
     {
       "name": "Wooden Spoon Box",
-      "category": "",
+      "category": "Condiments",
       "price": 1580,
       "note": ""
     },
     {
       "name": "110 CC Paper Bowl",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 770,
       "note": ""
     },
     {
       "name": "Safe Hand Gloves Box",
-      "category": "",
+      "category": "Condiments",
       "price": 2550,
       "note": ""
     },
     {
       "name": "BBQ Stick #10 Trigrem",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 1320,
       "note": ""
     },
     {
       "name": "BBQ Stick #8 Trigrem",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 1100,
       "note": ""
     },
     {
       "name": "390 CC Suki",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 880,
       "note": ""
     },
     {
       "name": "Styro Cup QC",
-      "category": "",
+      "category": "Styro",
       "price": 820,
       "note": ""
     },
     {
       "name": "Styro Bowl 12oz QC",
-      "category": "",
+      "category": "Styro",
       "price": 700,
       "note": ""
     },
     {
       "name": "BBQ Stick 6 Eco",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 820,
       "note": ""
     },
     {
       "name": "BBQ Stick 8 Eco",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 920,
       "note": ""
     },
     {
       "name": "8 oz Paper Cup Suki",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 590,
       "note": ""
     },
     {
       "name": "Sunshine Spaghetti 10 Pack",
-      "category": "",
+      "category": "Pasta",
       "price": 1150,
       "note": ""
     },
     {
       "name": "390 CC ECO 1000pcs",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 900,
       "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "Silver Paper Plate White Apple",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 280,
       "note": ""
     },
     {
       "name": "Silver Paper Plate Spartan",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 560,
       "note": ""
     },
     {
       "name": "Milktea Hangbag Single",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 500,
       "note": ""
     },
     {
       "name": "Milktea Hangbag Double",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 450,
       "note": ""
     },
     {
       "name": "Paper Bag #20",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 1200,
       "note": ""
     },
     {
       "name": "Plate Holder Green",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 864,
       "note": ""
     },
     {
       "name": "Boba Straw Clear Box 3000pcs",
-      "category": "",
+      "category": "Straw",
       "price": 1200,
       "note": ""
     },
     {
       "name": "Paper Bag #25",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 1250,
       "note": ""
     },
     {
       "name": "BBQ Stick #12 Eco",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 1300,
       "note": ""
     },
     {
       "name": "Burger Box Silver",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 1900,
       "note": ""
     },
     {
       "name": "Foil 8 meters Pcs",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 22,
       "note": ""
     },
     {
       "name": "4x12 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 115,
       "note": ""
     },
     {
       "name": "BBQ Stick #10 Eco",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 1170,
       "note": ""
     },
     {
       "name": "Mini Snow Bear",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 80,
       "note": ""
     },
     {
       "name": "Tiny Snow Bear",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 110,
       "note": ""
     },
     {
       "name": "Medium Snow Bear",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 200,
       "note": ""
     },
     {
       "name": "Large Snow Bear",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 340,
       "note": ""
     },
     {
       "name": "Tiny Clear",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 110,
       "note": ""
     },
     {
       "name": "520 CC Eco",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 1150,
       "note": ""
     },
     {
       "name": "Paper Bag #45",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 990,
       "note": ""
     },
     {
       "name": "Calamansi Tasty Palamig",
-      "category": "",
+      "category": "Juice Flavored",
       "price": 2250,
       "note": ""
     },
     {
       "name": "12 oz Paper Cup Eco",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 735,
       "note": ""
     },
     {
       "name": "LB3 Paper",
-      "category": "",
+      "category": "Styro",
       "price": 2100,
       "note": ""
     },
     {
       "name": "320 cc ECO",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 880,
       "note": ""
     },
     {
       "name": "Pull up Tissue 30 pack",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 720,
       "note": ""
     },
     {
       "name": "520 cc 1000pcs SUKI",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 600,
       "note": ""
     },
     {
       "name": "7x14 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 290,
       "note": ""
     },
     {
       "name": "10 oz Paper Cup Eco",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 755,
       "note": ""
     },
     {
       "name": "Tissue Roll Eco",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 90,
       "note": ""
     },
     {
       "name": "8x14 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 245,
       "note": ""
     },
     {
       "name": "9x16 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 320,
       "note": ""
     },
     {
       "name": "320 cc Suki",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 880,
       "note": ""
     },
@@ -3452,97 +3451,97 @@
     },
     {
       "name": "260 CC ECO",
-      "category": "",
+      "category": "Cooler Cups",
       "price": 800,
       "note": ""
     },
     {
       "name": "8 oz Paper Cup ECO",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 570,
       "note": ""
     },
     {
       "name": "Styro Cup  Winwin",
-      "category": "",
+      "category": "Styro",
       "price": 850,
       "note": ""
     },
     {
       "name": "Wooden Fork",
-      "category": "",
+      "category": "Condiments",
       "price": 1580,
       "note": ""
     },
     {
       "name": "6.5 Paper Cup Eco",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 480,
       "note": ""
     },
     {
       "name": "SQ 1500 Microwaveable",
-      "category": "",
+      "category": "Microwavable",
       "price": 2140,
       "note": ""
     },
     {
       "name": "9x12 04 Calypso",
-      "category": "",
+      "category": "Calypso",
       "price": 235,
       "note": ""
     },
     {
       "name": "16oz Paper Cup Eco",
-      "category": "",
+      "category": "Paper Cup/Plate",
       "price": 1180,
       "note": ""
     },
     {
       "name": "20x30 Star",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 130,
       "note": ""
     },
     {
       "name": "8x11 Roll Star",
-      "category": "",
+      "category": "Plastic Bag",
       "price": 95,
       "note": ""
     },
     {
       "name": "RO 250 Microwavable Bibbo",
-      "category": "",
+      "category": "Microwavable",
       "price": 720,
       "note": ""
     },
     {
       "name": "RE 1000 Bibbo",
-      "category": "",
+      "category": "Microwavable",
       "price": 1300,
       "note": ""
     },
     {
       "name": "Alsa Rice",
-      "category": "",
+      "category": "Dry Goods",
       "price": 1120,
       "note": ""
     },
     {
       "name": "Foil 300m Suki",
-      "category": "",
+      "category": "Food Packaging & Service Supplies",
       "price": 2240,
       "note": ""
     },
     {
       "name": "Denorado Rice",
-      "category": "",
+      "category": "Dry Goods",
       "price": 1270,
       "note": ""
     },
     {
       "name": "RO10 Bibbo",
-      "category": "",
+      "category": "Microwavable",
       "price": 750,
       "note": ""
     }
