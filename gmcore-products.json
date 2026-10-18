@@ -1,7 +1,8 @@
+
 {
   "fileType": "DALIMAR_AGENT_MASTER_UPDATE",
   "version": 2,
-  "exportedAt": "2026-10-18T05:51:00.000Z",
+  "exportedAt": "2026-10-18T06:08:01.000Z",
   "sourceApp": "DalimarGM Core",
   "routeCount": 6,
   "itemsMaster": [
@@ -9,4131 +10,3541 @@
       "name": "1 Kilo Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 90,
-      "note": "",
-      "barcode": "GM803153286066"
+      "note": ""
     },
     {
       "name": "1/4 Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 330,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153281932"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "100 grams Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 100,
-      "note": "",
-      "barcode": "GM803153285846"
+      "note": ""
     },
     {
       "name": "4x6 Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 300,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153283338"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "5x5 Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153291725"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "1/2 kilo Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 45,
-      "note": "",
-      "barcode": "GM803153292407"
+      "note": ""
     },
     {
       "name": "3x8 Lobster Pancit Canton",
       "category": "Lobster Canton",
       "price": 270,
-      "note": "",
-      "barcode": "GM803153291675"
+      "note": ""
     },
     {
       "name": "1 1/2 x10 Patok",
       "category": "Ice Bag",
       "price": 440,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295362"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "1 1/4 x10 Patok",
       "category": "Ice Bag",
       "price": 420,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295326"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "1 3/4x10 Patok",
       "category": "Ice Bag",
       "price": 460,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291319"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "1x10 Patok",
       "category": "Ice Bag",
       "price": 390,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153296286"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "2 1/2x10 Patok",
       "category": "Ice Bag",
       "price": 300,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153299000"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "2x10 Patok",
       "category": "Ice Bag",
       "price": 460,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298588"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "3x10 04 Calypso",
       "category": "Ice Bag",
       "price": 310,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153293864"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "3x10 Patok",
       "category": "Ice Bag",
       "price": 330,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153295949"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "4x12 Patok",
       "category": "Ice Bag",
       "price": 385,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291518"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "4x12 Shure",
       "category": "Ice Bag",
       "price": 460,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296725"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Coolers Ice Bag",
       "category": "Ice Bag",
       "price": 240,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294629"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Patok # 1",
       "category": "Ice Bag",
       "price": 250,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153292665"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Victoria 1/2 Plastic",
       "category": "Ice Bag",
       "price": 420,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294798"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Victoria 1/4 Plastic",
       "category": "Ice Bag",
       "price": 290,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297409"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Victoria Kilo",
       "category": "Ice Bag",
       "price": 525,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298694"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "1 oz Micro",
       "category": "Hinged Micro",
       "price": 850,
-      "note": "",
-      "barcode": "GM803153297111"
+      "note": ""
     },
     {
       "name": "2 oz Hinged Cup",
       "category": "Hinged Micro",
       "price": 860,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296106"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "2 oz Micro",
       "category": "Hinged Micro",
       "price": 780,
-      "note": "",
-      "barcode": "GM803153298320"
+      "note": ""
     },
     {
       "name": "3 oz Micro Hinged Cup",
       "category": "Hinged Micro",
       "price": 1000,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153294433"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "3x4 04 Calypso",
       "category": "Hinged Micro",
       "price": 130,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295084"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "4 oz Hinged Cup Lucky Box",
       "category": "Hinged Micro",
       "price": 1000,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153297670"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "4 oz Micro",
       "category": "Hinged Micro",
       "price": 950,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153292366"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "5 oz Hinged Cup",
       "category": "Hinged Micro",
       "price": 1550,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153297151"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "10 oz Pinoy Paper Cup",
       "category": "Plastic Cup",
       "price": 750,
-      "note": "",
-      "barcode": "GM803153291876"
+      "note": ""
     },
     {
       "name": "10 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 360,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299959"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "12 oz Master",
       "category": "Plastic Cup",
       "price": 420,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299516"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "12 oz Pinoy Paper Cup",
       "category": "Plastic Cup",
       "price": 900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153292809"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "12 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 380,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293959"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "12oz Papercup Belle",
       "category": "Plastic Cup",
       "price": 800,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299463"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "16 oz Plastic Cup Magnolia",
       "category": "Plastic Cup",
       "price": 600,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295610"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "16 oz Plastic Cup Master",
       "category": "Plastic Cup",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291387"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "3 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296753"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "3 oz Salad Cup",
       "category": "Plastic Cup",
       "price": 520,
-      "note": "",
-      "barcode": "GM803153296491"
+      "note": ""
     },
     {
       "name": "5 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 230,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292031"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "6 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 240,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293037"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "7 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295167"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "8 oz Plastic Cup",
       "category": "Plastic Cup",
       "price": 280,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298365"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "101 Ice Chest",
       "category": "Styro",
       "price": 140,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297143"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "102 Ice Chest",
       "category": "Styro",
       "price": 190,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298185"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "103 Ice Chest",
       "category": "Styro",
       "price": 210,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297198"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "105 Ice Chest",
       "category": "Styro",
       "price": 245,
-      "note": "",
-      "barcode": "GM803153299102"
+      "note": ""
     },
     {
       "name": "Box 2 Ice Chest",
       "category": "Styro",
       "price": 240,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297429"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Box 3 Ice Chest",
       "category": "Styro",
       "price": 290,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296312"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Bowl 12 oz Styro",
       "category": "Styro",
       "price": 750,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294934"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Bowl 12oz QC",
       "category": "Styro",
       "price": 720,
-      "note": "",
-      "barcode": "GM803153297399"
+      "note": ""
     },
     {
       "name": "Bowl 12oz Winwin",
       "category": "Styro",
       "price": 780,
-      "note": "",
-      "barcode": "GM803153297929"
+      "note": ""
     },
     {
       "name": "Bowl MB3",
       "category": "Styro",
       "price": 630,
-      "note": "",
-      "barcode": "GM803153296761"
+      "note": ""
     },
     {
       "name": "Double Handle Ice Chest",
       "category": "Styro",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153291252"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Ice Chest Large",
       "category": "Styro",
       "price": 190,
-      "note": "",
-      "barcode": "GM803153299067"
+      "note": ""
     },
     {
       "name": "Ice Chest Medium",
       "category": "Styro",
       "price": 190,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153293863"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "Ice Chest Small",
       "category": "Styro",
       "price": 135,
-      "note": "",
-      "barcode": "GM803153293231"
+      "note": ""
     },
     {
       "name": "Round Ice Chest 202",
       "category": "Styro",
       "price": 160,
-      "note": "",
-      "barcode": "GM803153297841"
+      "note": ""
     },
     {
       "name": "Spaghetti Box Styro Dura",
       "category": "Styro",
       "price": 1,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298440"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Spaghetti Box Styro Pink",
       "category": "Styro",
       "price": 0.9,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293905"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Styro Cup",
       "category": "Styro",
       "price": 900,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299121"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Styro Cup Coex",
       "category": "Styro",
       "price": 940,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299118"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Styro Lunch Box 1",
       "category": "Styro",
       "price": 2,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293483"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Styro Lunch Box 2",
       "category": "Styro",
       "price": 1.8,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298089"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Styro Lunch Box 3",
       "category": "Styro",
       "price": 2,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297352"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "StyroCup M33",
       "category": "Styro",
       "price": 630,
-      "note": "",
-      "barcode": "GM803153299341"
+      "note": ""
     },
     {
       "name": "StyroPlate",
       "category": "Styro",
       "price": 1.2,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295671"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "SW 101",
       "category": "Styro",
       "price": 135,
-      "note": "",
-      "barcode": "GM803153296618"
+      "note": ""
     },
     {
       "name": "SW 102",
       "category": "Styro",
       "price": 165,
-      "note": "",
-      "barcode": "GM803153291565"
+      "note": ""
     },
     {
       "name": "10x14 04 Calypso",
       "category": "Calypso",
       "price": 335,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153296862"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "10x14 HDC",
       "category": "Calypso",
       "price": 234,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153294133"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "12x18 04 Calypso",
       "category": "Calypso",
       "price": 465,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296389"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "12x18 HDC",
       "category": "Calypso",
       "price": 370,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153292472"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "2 1/2 x 10 04 Calypso",
       "category": "Calypso",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153294912"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "2x3 VSP",
       "category": "Calypso",
       "price": 140,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153291618"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "4x10 04 Calypso",
       "category": "Calypso",
       "price": 85,
-      "note": "",
-      "barcode": "GM803153293444"
+      "note": ""
     },
     {
       "name": "4x8 04 Calypso",
       "category": "Calypso",
       "price": 170,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153295966"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "5x10 04 Calypso",
       "category": "Calypso",
       "price": 125,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153292804"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "5x8 04 Calypso",
       "category": "Calypso",
       "price": 100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153299164"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "6x10 04 Calypso",
       "category": "Calypso",
       "price": 145,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153295195"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "6x10 HDC",
       "category": "Calypso",
       "price": 97,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153297444"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "6x12 04 Calypso",
       "category": "Calypso",
       "price": 160,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153296345"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "8x11 HDC",
       "category": "Calypso",
       "price": 110,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153295852"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "8x12 04 Calypso",
       "category": "Calypso",
       "price": 220,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153292404"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "8x12 HDC",
       "category": "Calypso",
       "price": 90,
-      "note": "",
-      "barcode": "GM803153298508"
+      "note": ""
     },
     {
       "name": "8x16 04 Calypso",
       "category": "Calypso",
       "price": 215,
-      "note": "",
-      "barcode": "GM803153299861"
+      "note": ""
     },
     {
       "name": "10x14 Quality",
       "category": "Quality Plastic",
       "price": 196,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296281"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "16x24 Quality",
       "category": "Quality Plastic",
       "price": 90,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291046"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "16x24 RBD",
       "category": "Quality Plastic",
       "price": 72,
-      "note": "",
-      "barcode": "GM803153292597"
+      "note": ""
     },
     {
       "name": "16x24 Roll",
       "category": "Quality Plastic",
       "price": 78,
-      "note": "",
-      "barcode": "GM803153292189"
+      "note": ""
     },
     {
       "name": "20x30 Quality",
       "category": "Quality Plastic",
       "price": 160,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294709"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "6x10 Quality",
       "category": "Quality Plastic",
       "price": 70,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296927"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "8x11 Quality Roll",
       "category": "Quality Plastic",
       "price": 108,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153293318"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Large Quality",
       "category": "Quality Plastic",
       "price": 650,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294223"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Medium Quality",
       "category": "Quality Plastic",
       "price": 387,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294775"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Mini Quality",
       "category": "Quality Plastic",
       "price": 125,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295361"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Tiny Quality",
       "category": "Quality Plastic",
       "price": 205,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295616"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "1.5 w/ LID",
       "category": "LID Cup",
       "price": 850,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295649"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "2.5 with LID",
       "category": "LID Cup",
       "price": 1200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295746"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "22 oz LID",
       "category": "LID Cup",
       "price": 730,
-      "note": "",
-      "barcode": "GM803153294945"
+      "note": ""
     },
     {
       "name": "16 oz Paper Cup",
       "category": "Paper Cup/Plate",
       "price": 1350,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153295796"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "22 oz Paper Cup",
       "category": "Paper Cup/Plate",
       "price": 1500,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153294840"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "22 oz PP",
       "category": "Paper Cup/Plate",
       "price": 1960,
-      "note": "",
-      "barcode": "GM803153299436"
+      "note": ""
     },
     {
       "name": "5 oz Paper Cup",
       "category": "Paper Cup/Plate",
       "price": 480,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153295634"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "5 oz Papercup Belle",
       "category": "Paper Cup/Plate",
       "price": 460,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153294029"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "6.5 Paper Cup Belle",
       "category": "Paper Cup/Plate",
       "price": 480,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299040"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "6.5 Paper cup Trigrem",
       "category": "Paper Cup/Plate",
       "price": 540,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-08.xlsx)",
-      "barcode": "GM803153298947"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-08.xlsx)"
     },
     {
       "name": "6.5 Pinoy Paper Cup",
       "category": "Paper Cup/Plate",
       "price": 540,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153293341"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "8 oz Paper Cup Belle",
       "category": "Paper Cup/Plate",
       "price": 570,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296802"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "8 oz Paper Cup Trigrem",
       "category": "Paper Cup/Plate",
       "price": 620,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153292137"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "8 oz Pinoy Paper Cup",
       "category": "Paper Cup/Plate",
       "price": 620,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297647"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Footlong Paper Plate",
       "category": "Paper Cup/Plate",
       "price": 230,
-      "note": "",
-      "barcode": "GM803153298293"
+      "note": ""
     },
     {
       "name": "Hotdog Box",
       "category": "Paper Cup/Plate",
       "price": 1950,
-      "note": "",
-      "barcode": "GM803153297539"
+      "note": ""
     },
     {
       "name": "Hotdog Ordinary Paper Plate",
       "category": "Paper Cup/Plate",
       "price": 230,
-      "note": "",
-      "barcode": "GM803153298753"
+      "note": ""
     },
     {
       "name": "Hotdog Silver Paper Plate",
       "category": "Paper Cup/Plate",
       "price": 240,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153294651"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Kikiam Ordinary",
       "category": "Paper Cup/Plate",
       "price": 190,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298410"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Kikiam Silver",
       "category": "Paper Cup/Plate",
       "price": 200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296147"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "LB1 Paper",
       "category": "Paper Cup/Plate",
       "price": 2000,
-      "note": "",
-      "barcode": "GM803153297371"
+      "note": ""
     },
     {
       "name": "LB2 Paper",
       "category": "Paper Cup/Plate",
       "price": 2050,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153294034"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "LF 500",
       "category": "Paper Cup/Plate",
       "price": 1350,
-      "note": "",
-      "barcode": "GM803153299248"
+      "note": ""
     },
     {
       "name": "Meal Box Apple",
       "category": "Paper Cup/Plate",
       "price": 1150,
-      "note": "",
-      "barcode": "GM803153293510"
+      "note": ""
     },
     {
       "name": "MealBox Silver Coated",
       "category": "Paper Cup/Plate",
       "price": 900,
-      "note": "",
-      "barcode": "GM803153298484"
+      "note": ""
     },
     {
       "name": "MealBox Trigrem",
       "category": "Paper Cup/Plate",
       "price": 1200,
-      "note": "",
-      "barcode": "GM803153295711"
+      "note": ""
     },
     {
       "name": "Noodle Box",
       "category": "Paper Cup/Plate",
       "price": 1.75,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153298468"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Paper Bag #1",
       "category": "Paper Cup/Plate",
       "price": 1900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153294472"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Paper Bag #2",
       "category": "Paper Cup/Plate",
       "price": 1580,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153296470"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Paper Bag #3",
       "category": "Paper Cup/Plate",
       "price": 1500,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291190"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Paper Bag #4",
       "category": "Paper Cup/Plate",
       "price": 1470,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153293446"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Paper Bag #5",
       "category": "Paper Cup/Plate",
       "price": 1320,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153297175"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Paper Bag #6",
       "category": "Paper Cup/Plate",
       "price": 1580,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297005"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Paper Bag 3/4",
       "category": "Paper Cup/Plate",
       "price": 1520,
-      "note": "",
-      "barcode": "GM803153291814"
+      "note": ""
     },
     {
       "name": "Silver Paper Plate Apple",
       "category": "Paper Cup/Plate",
       "price": 300,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291978"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Silver Paper Plate Medium",
       "category": "Paper Cup/Plate",
       "price": 300,
-      "note": "",
-      "barcode": "GM803153291080"
+      "note": ""
     },
     {
       "name": "Silver Paper Plate Belle",
       "category": "Paper Cup/Plate",
       "price": 310,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153292856"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "Silver Paper Plate Uno",
       "category": "Paper Cup/Plate",
       "price": 290,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153297743"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "SpagBOX",
       "category": "Paper Cup/Plate",
       "price": 1270,
-      "note": "",
-      "barcode": "GM803153294779"
+      "note": ""
     },
     {
       "name": "SpagBox Paper Apple Silver",
       "category": "Paper Cup/Plate",
       "price": 980,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153293283"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Spagbox Brown Silver",
       "category": "Paper Cup/Plate",
       "price": 900,
-      "note": "",
-      "barcode": "GM803153296735"
+      "note": ""
     },
     {
       "name": "SpagBox Paper 1000pcs",
       "category": "Paper Cup/Plate",
       "price": 2100,
-      "note": "",
-      "barcode": "GM803153296396"
+      "note": ""
     },
     {
       "name": "Spagbox Paper White Apple",
       "category": "Paper Cup/Plate",
       "price": 1150,
-      "note": "",
-      "barcode": "GM803153295657"
+      "note": ""
     },
     {
       "name": "220 CC Eco",
       "category": "Cooler Cups",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153294664"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "260 CC",
       "category": "Cooler Cups",
       "price": 750,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153293623"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "320 CC",
       "category": "Cooler Cups",
       "price": 560,
-      "note": "",
-      "barcode": "GM803153293574"
+      "note": ""
     },
     {
       "name": "320 CC PP 1000k pcs",
       "category": "Cooler Cups",
       "price": 950,
-      "note": "",
-      "barcode": "GM803153294217"
+      "note": ""
     },
     {
       "name": "320CC 500pcs",
       "category": "Cooler Cups",
       "price": 500,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153295434"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "320CC Belle",
       "category": "Cooler Cups",
       "price": 900,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153296193"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "390 CC 1000pcs Pinoy",
       "category": "Cooler Cups",
       "price": 1100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153299232"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "390 CC 500",
       "category": "Cooler Cups",
       "price": 500,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299270"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "390 CC Belle",
       "category": "Cooler Cups",
       "price": 1000,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153292635"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "390 CC LID",
       "category": "Cooler Cups",
       "price": 800,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153293512"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "390 CC Pinoy",
       "category": "Cooler Cups",
       "price": 660,
-      "note": "",
-      "barcode": "GM803153294705"
+      "note": ""
     },
     {
       "name": "390 CC Texas",
       "category": "Cooler Cups",
       "price": 660,
-      "note": "",
-      "barcode": "GM803153293142"
+      "note": ""
     },
     {
       "name": "390 CC Trigrem 500pcs",
       "category": "Cooler Cups",
       "price": 600,
-      "note": "",
-      "barcode": "GM803153295372"
+      "note": ""
     },
     {
       "name": "390cc Belle 1000pcs",
       "category": "Cooler Cups",
       "price": 950,
-      "note": "",
-      "barcode": "GM803153294780"
+      "note": ""
     },
     {
       "name": "520 CC Belle",
       "category": "Cooler Cups",
       "price": 1230,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153296095"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "520 CC LID",
       "category": "Cooler Cups",
       "price": 900,
-      "note": "",
-      "barcode": "GM803153296804"
+      "note": ""
     },
     {
       "name": "520 CC Trigrem 500pcs",
       "category": "Cooler Cups",
       "price": 680,
-      "note": "",
-      "barcode": "GM803153298950"
+      "note": ""
     },
     {
       "name": "CC 350",
       "category": "Cooler Cups",
       "price": 1900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153291930"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "CC 500",
       "category": "Cooler Cups",
       "price": 3400,
-      "note": "",
-      "barcode": "GM803153297500"
+      "note": ""
     },
     {
       "name": "CC 700",
       "category": "Cooler Cups",
       "price": 1600,
-      "note": "",
-      "barcode": "GM803153299362"
+      "note": ""
     },
     {
       "name": "U700 Milk Tea Cup",
       "category": "Cooler Cups",
       "price": 1750,
-      "note": "",
-      "barcode": "GM803153291370"
+      "note": ""
     },
     {
       "name": "Y Dome LID",
       "category": "Cooler Cups",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153292999"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Y Flat Lid",
       "category": "Cooler Cups",
       "price": 600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153298477"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Y320 Milktea Cup",
       "category": "Cooler Cups",
       "price": 1600,
-      "note": "",
-      "barcode": "GM803153295481"
+      "note": ""
     },
     {
       "name": "Y360 Milk Tea Cup",
       "category": "Cooler Cups",
       "price": 1850,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297586"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Y500 Milk Tea Cup",
       "category": "Cooler Cups",
       "price": 1300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299953"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Y700 Milk Tea Cup",
       "category": "Cooler Cups",
       "price": 1600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299527"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Y800",
       "category": "Cooler Cups",
       "price": 950,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153293670"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "2D Bento Box",
       "category": "Microwavable",
       "price": 1300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153294557"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "2D Black Microwavable",
       "category": "Microwavable",
       "price": 1180,
-      "note": "",
-      "barcode": "GM803153293434"
+      "note": ""
     },
     {
       "name": "3D Black",
       "category": "Microwavable",
       "price": 1530,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153291539"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "3D White Microwavable",
       "category": "Microwavable",
       "price": 1500,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153291096"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "4D White Microwavable",
       "category": "Microwavable",
       "price": 1480,
-      "note": "",
-      "barcode": "GM803153298409"
+      "note": ""
     },
     {
       "name": "Dome LID EZ",
       "category": "Microwavable",
       "price": 2000,
-      "note": "",
-      "barcode": "GM803153298355"
+      "note": ""
     },
     {
       "name": "Flat Lid",
       "category": "Microwavable",
       "price": 500,
-      "note": "",
-      "barcode": "GM803153298640"
+      "note": ""
     },
     {
       "name": "FTA",
       "category": "Microwavable",
       "price": 1.18,
-      "note": "",
-      "barcode": "GM803153295879"
+      "note": ""
     },
     {
       "name": "FTB",
       "category": "Microwavable",
       "price": 1.35,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299975"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "MB3 Bowl",
       "category": "Microwavable",
       "price": 630,
-      "note": "",
-      "barcode": "GM803153293280"
+      "note": ""
     },
     {
       "name": "RE 1000 Microwavable",
       "category": "Microwavable",
       "price": 1380,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298932"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "RE 1500",
       "category": "Microwavable",
       "price": 1570,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153293121"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "RE 1600",
       "category": "Microwavable",
       "price": 1650,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153297923"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "RE 2000 Microwavable",
       "category": "Microwavable",
       "price": 1620,
-      "note": "",
-      "barcode": "GM803153299189"
+      "note": ""
     },
     {
       "name": "RE 2500 Microwavable",
       "category": "Microwavable",
       "price": 2270,
-      "note": "",
-      "barcode": "GM803153292411"
+      "note": ""
     },
     {
       "name": "RE 2D",
       "category": "Microwavable",
       "price": 1450,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153298880"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "RE 3200 Belle",
       "category": "Microwavable",
       "price": 1950,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297766"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RE 3200 BNW White",
       "category": "Microwavable",
       "price": 2425,
-      "note": "",
-      "barcode": "GM803153298441"
+      "note": ""
     },
     {
       "name": "RE 3200 SK2 Black",
       "category": "Microwavable",
       "price": 2450,
-      "note": "",
-      "barcode": "GM803153293015"
+      "note": ""
     },
     {
       "name": "RE 3D",
       "category": "Microwavable",
       "price": 1500,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153291956"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "RE 4D",
       "category": "Microwavable",
       "price": 1480,
-      "note": "",
-      "barcode": "GM803153299791"
+      "note": ""
     },
     {
       "name": "RE 5000 Belle",
       "category": "Microwavable",
       "price": 2025,
-      "note": "",
-      "barcode": "GM803153295069"
+      "note": ""
     },
     {
       "name": "RE 5000 Microwavable",
       "category": "Microwavable",
       "price": 2200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291807"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RE 5000 White Microwavable",
       "category": "Microwavable",
       "price": 2820,
-      "note": "",
-      "barcode": "GM803153292620"
+      "note": ""
     },
     {
       "name": "RE400 Bibbo",
       "category": "Microwavable",
       "price": 1050,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296561"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RE400 Microwavable",
       "category": "Microwavable",
       "price": 890,
-      "note": "",
-      "barcode": "GM803153291179"
+      "note": ""
     },
     {
       "name": "RE500 Belle",
       "category": "Microwavable",
       "price": 1150,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153298815"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "RE500 Bibbo",
       "category": "Microwavable",
       "price": 1060,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297477"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RE500 Microwavable",
       "category": "Microwavable",
       "price": 1080,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153295022"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "RE750 Microwavable",
       "category": "Microwavable",
       "price": 1280,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153293914"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "RE750 Microwavable Trigrem",
       "category": "Microwavable",
       "price": 1250,
-      "note": "",
-      "barcode": "GM803153297861"
+      "note": ""
     },
     {
       "name": "RO 1000 SK2",
       "category": "Microwavable",
       "price": 1400,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153293951"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "RO 1500 SK2",
       "category": "Microwavable",
       "price": 1340,
-      "note": "",
-      "barcode": "GM803153291691"
+      "note": ""
     },
     {
       "name": "RO 2000 Microwavable",
       "category": "Microwavable",
       "price": 1320,
-      "note": "",
-      "barcode": "GM803153296247"
+      "note": ""
     },
     {
       "name": "RO 250 Microwavable",
       "category": "Microwavable",
       "price": 770,
-      "note": "",
-      "barcode": "GM803153291998"
+      "note": ""
     },
     {
       "name": "RO 2500 Microwavable",
       "category": "Microwavable",
       "price": 1400,
-      "note": "",
-      "barcode": "GM803153293484"
+      "note": ""
     },
     {
       "name": "RO 3000 Microwavable",
       "category": "Microwavable",
       "price": 1420,
-      "note": "",
-      "barcode": "GM803153296049"
+      "note": ""
     },
     {
       "name": "RO 750 Microwavable",
       "category": "Microwavable",
       "price": 1100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153298007"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "RO10 Microwavable",
       "category": "Microwavable",
       "price": 770,
-      "note": "",
-      "barcode": "GM803153295738"
+      "note": ""
     },
     {
       "name": "RO16 Microwavable",
       "category": "Microwavable",
       "price": 980,
-      "note": "",
-      "barcode": "GM803153299741"
+      "note": ""
     },
     {
       "name": "RO250 Microwavable",
       "category": "Microwavable",
       "price": 750,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299368"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "RO450 Microwavable",
       "category": "Microwavable",
       "price": 850,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153292838"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Salad Cup 2.5",
       "category": "Microwavable",
       "price": 1200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294288"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Salad Cup 3.5 Olympic",
       "category": "Microwavable",
       "price": 810,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292062"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Utility Tray",
       "category": "Microwavable",
       "price": 1.2,
-      "note": "",
-      "barcode": "GM803153294096"
+      "note": ""
     },
     {
       "name": "3Q / 6 Palabok",
       "category": "Pasta",
       "price": 368,
-      "note": "",
-      "barcode": "GM803153299885"
+      "note": ""
     },
     {
       "name": "3Q Bihon / 6 kilos",
       "category": "Pasta",
       "price": 384,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153298742"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "3Q Bihon 15 kilos",
       "category": "Pasta",
       "price": 960,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153298664"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Elbow Ridge 1/4 Macaroni",
       "category": "Pasta",
       "price": 295,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153296358"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Elbow Ridge Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293596"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Elbow Small 1/4 Macaroni",
       "category": "Pasta",
       "price": 295,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153296619"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Elbow Small Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153294432"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Flat Spaghetti",
       "category": "Pasta",
       "price": 1760,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153296249"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Ideal Spaghetti",
       "category": "Pasta",
       "price": 720,
-      "note": "",
-      "barcode": "GM803153292675"
+      "note": ""
     },
     {
       "name": "Lasagna",
       "category": "Pasta",
       "price": 1760,
-      "note": "",
-      "barcode": "GM803153294609"
+      "note": ""
     },
     {
       "name": "LOB Macaroni N/R",
       "category": "Pasta",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-08.xlsx)",
-      "barcode": "GM803153291518"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-08.xlsx)"
     },
     {
       "name": "LOS Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153295559"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Misua 1/2",
       "category": "Pasta",
       "price": 65,
-      "note": "",
-      "barcode": "GM803153298568"
+      "note": ""
     },
     {
       "name": "Misua Kilo",
       "category": "Pasta",
       "price": 65,
-      "note": "",
-      "barcode": "GM803153297223"
+      "note": ""
     },
     {
       "name": "PR Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298073"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Salad Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "",
-      "barcode": "GM803153292720"
+      "note": ""
     },
     {
       "name": "Shell Big Macaroni",
       "category": "Pasta",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153293740"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Shell Small 1/4 Macaroni",
       "category": "Pasta",
       "price": 295,
-      "note": "",
-      "barcode": "GM803153291535"
+      "note": ""
     },
     {
       "name": "Shell Small Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293874"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Sotanghon 1/2",
       "category": "Pasta",
       "price": 93,
-      "note": "",
-      "barcode": "GM803153297780"
+      "note": ""
     },
     {
       "name": "Sotanghon 1/2 Premium Box",
       "category": "Pasta",
       "price": 1730,
-      "note": "",
-      "barcode": "GM803153294563"
+      "note": ""
     },
     {
       "name": "Sotanghon 1/4",
       "category": "Pasta",
       "price": 90,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296146"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Sotanghon 1/4 Premium Box",
       "category": "Pasta",
       "price": 1780,
-      "note": "",
-      "barcode": "GM803153291470"
+      "note": ""
     },
     {
       "name": "Sotanghon 100 Grams",
       "category": "Pasta",
       "price": 100,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153292001"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Sotanghon 50 grams",
       "category": "Pasta",
       "price": 100,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153299752"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Sotanghon Kilo",
       "category": "Pasta",
       "price": 90,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153292005"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Sotanghon Kilo Premium Box",
       "category": "Pasta",
       "price": 1780,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153296594"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Sotanghon Komeya 50g",
       "category": "Pasta",
       "price": 100,
-      "note": "",
-      "barcode": "GM803153295121"
+      "note": ""
     },
     {
       "name": "Sunmac Combo Spaghetti",
       "category": "Pasta",
       "price": 1070,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294536"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Sunmac Spaghetti",
       "category": "Pasta",
       "price": 510,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294032"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Super Q Bihon 15 kls",
       "category": "Pasta",
       "price": 1175,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299435"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Super Q Palabok 15 kls",
       "category": "Pasta",
       "price": 1175,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292790"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Super Q Palabok 6 kilos",
       "category": "Pasta",
       "price": 430,
-      "note": "",
-      "barcode": "GM803153297761"
+      "note": ""
     },
     {
       "name": "Twist Macaroni",
       "category": "Pasta",
       "price": 265,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153298736"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "80/90 Mani",
       "category": "Dry Goods",
       "price": 4850,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153296031"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Atsuete Seeds",
       "category": "Dry Goods",
       "price": 360,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153292140"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Beans",
       "category": "Dry Goods",
       "price": 2150,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292299"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Monggo Labo",
       "category": "Dry Goods",
       "price": 2650,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153293148"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Pop Corn MQ",
       "category": "Dry Goods",
       "price": 1000,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294035"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RED Munggo",
       "category": "Dry Goods",
       "price": 2200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153298812"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Sesame Seeds",
       "category": "Dry Goods",
       "price": 220,
-      "note": "",
-      "barcode": "GM803153298782"
+      "note": ""
     },
     {
       "name": "Skinless Mani",
       "category": "Dry Goods",
       "price": 2250,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299961"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "8x11 JR",
       "category": "Plastic Bag",
       "price": 110,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153295554"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Large JR A/C Plastic Bag",
       "category": "Plastic Bag",
       "price": 830,
-      "note": "",
-      "barcode": "GM803153295393"
+      "note": ""
     },
     {
       "name": "Large JR Transparent",
       "category": "Plastic Bag",
       "price": 930,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153297801"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Large JR White Plastic Bag",
       "category": "Plastic Bag",
       "price": 830,
-      "note": "",
-      "barcode": "GM803153294292"
+      "note": ""
     },
     {
       "name": "Large Melon Plastic Bag",
       "category": "Plastic Bag",
       "price": 360,
-      "note": "",
-      "barcode": "GM803153299909"
+      "note": ""
     },
     {
       "name": "Large Pinoy Plastic Bag",
       "category": "Plastic Bag",
       "price": 183,
-      "note": "",
-      "barcode": "GM803153295944"
+      "note": ""
     },
     {
       "name": "Large Snow Bird Plastic Bag",
       "category": "Plastic Bag",
       "price": 1270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296010"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Large Vega Transparent",
       "category": "Plastic Bag",
       "price": 430,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299836"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Medium JR A/C Plastic Bag",
       "category": "Plastic Bag",
       "price": 530,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153291949"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Medium JR Transparent Plastic",
       "category": "Plastic Bag",
       "price": 540,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291563"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Medium JR White Plastic Bag",
       "category": "Plastic Bag",
       "price": 470,
-      "note": "",
-      "barcode": "GM803153297079"
+      "note": ""
     },
     {
       "name": "Medium Melon Plastic Bag",
       "category": "Plastic Bag",
       "price": 210,
-      "note": "",
-      "barcode": "GM803153296886"
+      "note": ""
     },
     {
       "name": "Medium Pinoy Plastic Bag",
       "category": "Plastic Bag",
       "price": 110,
-      "note": "",
-      "barcode": "GM803153293430"
+      "note": ""
     },
     {
       "name": "Medium Snow Bird Plastic Bag",
       "category": "Plastic Bag",
       "price": 690,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297833"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Medium Vega A/C",
       "category": "Plastic Bag",
       "price": 210,
-      "note": "",
-      "barcode": "GM803153295672"
+      "note": ""
     },
     {
       "name": "Medium Vega Transparent",
       "category": "Plastic Bag",
       "price": 250,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293110"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Micro JR Plastic Bag",
       "category": "Plastic Bag",
       "price": 135,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153299952"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Mini Gilas Plastic Bag",
       "category": "Plastic Bag",
       "price": 85,
-      "note": "",
-      "barcode": "GM803153291522"
+      "note": ""
     },
     {
       "name": "Mini JR A/C Plastic Bag",
       "category": "Plastic Bag",
       "price": 200,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153293223"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Mini JR Transparent Plastic Bag",
       "category": "Plastic Bag",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291727"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Mini JR White Plastic Bag",
       "category": "Plastic Bag",
       "price": 180,
-      "note": "",
-      "barcode": "GM803153298637"
+      "note": ""
     },
     {
       "name": "Mini Melon Plastic Bag",
       "category": "Plastic Bag",
       "price": 80,
-      "note": "",
-      "barcode": "GM803153294456"
+      "note": ""
     },
     {
       "name": "Mini Pinoy Plastic Bag",
       "category": "Plastic Bag",
       "price": 55,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153297341"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "Mini Vega Transparent",
       "category": "Plastic Bag",
       "price": 100,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296613"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Stripe XL",
       "category": "Plastic Bag",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153297000"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tiny JR A/C Plastic Bag",
       "category": "Plastic Bag",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153298673"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Tiny JR Transparent Plastic Bag",
       "category": "Plastic Bag",
       "price": 280,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153292012"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tiny JR White Plastic Bag",
       "category": "Plastic Bag",
       "price": 255,
-      "note": "",
-      "barcode": "GM803153295899"
+      "note": ""
     },
     {
       "name": "Tiny Melon Plastic Bag",
       "category": "Plastic Bag",
       "price": 110,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153297571"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tiny Pinoy Plastic Bag",
       "category": "Plastic Bag",
       "price": 60,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153291780"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "Tiny Snow Bird Plastic Bag",
       "category": "Plastic Bag",
       "price": 390,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153292788"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tiny Vega A/C",
       "category": "Plastic Bag",
       "price": 105,
-      "note": "",
-      "barcode": "GM803153297017"
+      "note": ""
     },
     {
       "name": "Tiny Vega Transparent",
       "category": "Plastic Bag",
       "price": 130,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291446"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "All Purpose Flour",
       "category": "Bakery Supplies",
       "price": 1240,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297425"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Calumet",
       "category": "Bakery Supplies",
       "price": 2200,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153294444"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Cassava Starch 50 kilo",
       "category": "Bakery Supplies",
       "price": 2200,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299078"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Cocoa",
       "category": "Bakery Supplies",
       "price": 1250,
-      "note": "",
-      "barcode": "GM803153299958"
+      "note": ""
     },
     {
       "name": "Cornstarch",
       "category": "Bakery Supplies",
       "price": 1040,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153292539"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "Garlic Powder",
       "category": "Bakery Supplies",
       "price": 200,
-      "note": "",
-      "barcode": "GM803153293502"
+      "note": ""
     },
     {
       "name": "Golden Brown Sugar",
       "category": "Bakery Supplies",
       "price": 2850,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153291478"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Harina",
       "category": "Bakery Supplies",
       "price": 760,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297388"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Iodized Salt",
       "category": "Bakery Supplies",
       "price": 310,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153296150"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Kings 1st Class",
       "category": "Bakery Supplies",
       "price": 930,
-      "note": "",
-      "barcode": "GM803153297118"
+      "note": ""
     },
     {
       "name": "Kings Glutinous Rice Powder",
       "category": "Bakery Supplies",
       "price": 760,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153299048"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Light Brown Sugar",
       "category": "Bakery Supplies",
       "price": 4000,
-      "note": "",
-      "barcode": "GM803153291094"
+      "note": ""
     },
     {
       "name": "Lopez White Sugar",
       "category": "Bakery Supplies",
       "price": 4400,
-      "note": "",
-      "barcode": "GM803153295379"
+      "note": ""
     },
     {
       "name": "Negro Sugar",
       "category": "Bakery Supplies",
       "price": 3050,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153298885"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Pasas",
       "category": "Bakery Supplies",
       "price": 1030,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299154"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Rice Flour",
       "category": "Bakery Supplies",
       "price": 660,
-      "note": "",
-      "barcode": "GM803153295052"
+      "note": ""
     },
     {
       "name": "Sugar White VMC",
       "category": "Bakery Supplies",
       "price": 3300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153295185"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Washed Sugar",
       "category": "Bakery Supplies",
       "price": 3120,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153291229"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Apple Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2020,
-      "note": "",
-      "barcode": "GM803153296153"
+      "note": ""
     },
     {
       "name": "Blue Lemonade Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2320,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297672"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Buko Juice Tasty Palamig",
       "category": "Juice Flavored",
       "price": 1900,
-      "note": "",
-      "barcode": "GM803153294735"
+      "note": ""
     },
     {
       "name": "Buko Pandan Tasty Palamig",
       "category": "Juice Flavored",
       "price": 1920,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153297358"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Chocolate Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2650,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153295673"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Cucumber Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2620,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293628"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Four Season Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2220,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153292416"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "Grapes Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2070,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)",
-      "barcode": "GM803153291601"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-12.xlsx)"
     },
     {
       "name": "Lemon Ice Tea Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2320,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296526"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Lychee Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2320,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153299722"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Magic Water Tasty Palamig",
       "category": "Juice Flavored",
       "price": 1970,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153294539"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Mango Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153295046"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Melon Tasty Palamig",
       "category": "Juice Flavored",
       "price": 1970,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153293591"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Orange Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2650,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153294487"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "Pineapple Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2020,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294797"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Red Ice Tea Tasty Palamig",
       "category": "Juice Flavored",
       "price": 2170,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297816"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Sagot Gulaman Tasty Palamig",
       "category": "Juice Flavored",
       "price": 1900,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291290"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Bagoong Big",
       "category": "Condiments",
       "price": 480,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153295807"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "Bagoong Small",
       "category": "Condiments",
       "price": 470,
-      "note": "",
-      "barcode": "GM803153291795"
+      "note": ""
     },
     {
       "name": "Bread Crumbs 230 grams",
       "category": "Condiments",
       "price": 24,
-      "note": "",
-      "barcode": "GM803153292880"
+      "note": ""
     },
     {
       "name": "Bread Crumbs 80 grams",
       "category": "Condiments",
       "price": 11,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294171"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Bread Crumbs Kilo",
       "category": "Condiments",
       "price": 91,
-      "note": "",
-      "barcode": "GM803153293610"
+      "note": ""
     },
     {
       "name": "Bread Crumbs Kilo Robert",
       "category": "Condiments",
       "price": 84,
-      "note": "",
-      "barcode": "GM803153296727"
+      "note": ""
     },
     {
       "name": "Cheese Miss 300g",
       "category": "Condiments",
       "price": 135,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298375"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Cheese Miss 200g",
       "category": "Condiments",
       "price": 130,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298994"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Cheese Powder",
       "category": "Condiments",
       "price": 105,
-      "note": "",
-      "barcode": "GM803153294201"
+      "note": ""
     },
     {
       "name": "Chili Flakes",
       "category": "Condiments",
       "price": 190,
-      "note": "",
-      "barcode": "GM803153294375"
+      "note": ""
     },
     {
       "name": "Chili Powder",
       "category": "Condiments",
       "price": 170,
-      "note": "",
-      "barcode": "GM803153296759"
+      "note": ""
     },
     {
       "name": "Coco Mama Gata Big",
       "category": "Condiments",
       "price": 1750,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153299774"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Cream Corn",
       "category": "Condiments",
       "price": 880,
-      "note": "",
-      "barcode": "GM803153294787"
+      "note": ""
     },
     {
       "name": "Freeto Big",
       "category": "Condiments",
       "price": 3600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153293772"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Freeto Small",
       "category": "Condiments",
       "price": 1150,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153291712"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Fried Garlic Lugaw",
       "category": "Condiments",
       "price": 115,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294476"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Fried Garlic Ordinary",
       "category": "Condiments",
       "price": 115,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153297742"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Fried Garlic Yellow",
       "category": "Condiments",
       "price": 130,
-      "note": "",
-      "barcode": "GM803153299403"
+      "note": ""
     },
     {
       "name": "Laurel Paminta",
       "category": "Condiments",
       "price": 240,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM803153291522"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Master Chef Malagkit Powder",
       "category": "Condiments",
       "price": 700,
-      "note": "",
-      "barcode": "GM803153295441"
+      "note": ""
     },
     {
       "name": "Master Condensada Kilo",
       "category": "Condiments",
       "price": 2050,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM803153297227"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "Master Condensada Small",
       "category": "Condiments",
       "price": 1700,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295553"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Ok Cheeze Big Box",
       "category": "Condiments",
       "price": 1284,
-      "note": "",
-      "barcode": "GM803153297304"
+      "note": ""
     },
     {
       "name": "Ok Cheeze Small Box",
       "category": "Condiments",
       "price": 2160,
-      "note": "",
-      "barcode": "GM803153296947"
+      "note": ""
     },
     {
       "name": "Paminta Pino",
       "category": "Condiments",
       "price": 320,
-      "note": "",
-      "barcode": "GM803153299333"
+      "note": ""
     },
     {
       "name": "Patis Big",
       "category": "Condiments",
       "price": 470,
-      "note": "",
-      "barcode": "GM803153298598"
+      "note": ""
     },
     {
       "name": "Patis Small",
       "category": "Condiments",
       "price": 470,
-      "note": "",
-      "barcode": "GM803153297074"
+      "note": ""
     },
     {
       "name": "Reno Big",
       "category": "Condiments",
       "price": 3000,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153291830"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Reno Small",
       "category": "Condiments",
       "price": 1430,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153293474"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Rock Salt",
       "category": "Condiments",
       "price": 320,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298579"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Slice Mushroom",
       "category": "Condiments",
       "price": 850,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153292338"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Sour Cream",
       "category": "Condiments",
       "price": 155,
-      "note": "",
-      "barcode": "GM803153298709"
+      "note": ""
     },
     {
       "name": "Sweet Coco Rice",
       "category": "Condiments",
       "price": 1130,
-      "note": "",
-      "barcode": "GM803153292574"
+      "note": ""
     },
     {
       "name": "Vetsin",
       "category": "Condiments",
       "price": 1400,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153292118"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Whole Corn",
       "category": "Condiments",
       "price": 850,
-      "note": "",
-      "barcode": "GM803153298837"
+      "note": ""
     },
     {
       "name": "BBQ Stick 10",
       "category": "Food Packaging & Service Supplies",
       "price": 1320,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295524"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "BBQ Stick 12",
       "category": "Food Packaging & Service Supplies",
       "price": 1500,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295537"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "BBQ Stick 6",
       "category": "Food Packaging & Service Supplies",
       "price": 950,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153291342"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "BBQ Stick 8",
       "category": "Food Packaging & Service Supplies",
       "price": 1100,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153293435"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Bilao #10 Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 530,
-      "note": "",
-      "barcode": "GM803153295301"
+      "note": ""
     },
     {
       "name": "Bilao #10 SK2",
       "category": "Food Packaging & Service Supplies",
       "price": 420,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153293463"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Bilao #12 Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 580,
-      "note": "",
-      "barcode": "GM803153299217"
+      "note": ""
     },
     {
       "name": "Bilao #12 SK2",
       "category": "Food Packaging & Service Supplies",
       "price": 450,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153294814"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Bilao #14 Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 485,
-      "note": "",
-      "barcode": "GM803153292002"
+      "note": ""
     },
     {
       "name": "Bilao #14 SK2",
       "category": "Food Packaging & Service Supplies",
       "price": 530,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292879"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Bilao #16 Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 600,
-      "note": "",
-      "barcode": "GM803153297234"
+      "note": ""
     },
     {
       "name": "Bilao #16 SK2",
       "category": "Food Packaging & Service Supplies",
       "price": 720,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153298104"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Bilao #18 Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 590,
-      "note": "",
-      "barcode": "GM803153297364"
+      "note": ""
     },
     {
       "name": "Bilao #18 Trigem",
       "category": "Food Packaging & Service Supplies",
       "price": 600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291861"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Burger Box",
       "category": "Food Packaging & Service Supplies",
       "price": 1900,
-      "note": "",
-      "barcode": "GM803153293918"
+      "note": ""
     },
     {
       "name": "Burger Plastic Plain",
       "category": "Food Packaging & Service Supplies",
       "price": 200,
-      "note": "",
-      "barcode": "GM803153291706"
+      "note": ""
     },
     {
       "name": "Burger Plastic Printed",
       "category": "Food Packaging & Service Supplies",
       "price": 270,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153297704"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Chlorine",
       "category": "Food Packaging & Service Supplies",
       "price": 3600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153295804"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "Chopstick",
       "category": "Food Packaging & Service Supplies",
       "price": 2440,
-      "note": "",
-      "barcode": "GM803153298689"
+      "note": ""
     },
     {
       "name": "Cling Wrap 30 Meters Box",
       "category": "Food Packaging & Service Supplies",
       "price": 1350,
-      "note": "",
-      "barcode": "GM803153293054"
+      "note": ""
     },
     {
       "name": "Cling Wrap 300 Meters Sulit",
       "category": "Food Packaging & Service Supplies",
       "price": 1350,
-      "note": "",
-      "barcode": "GM803153291465"
+      "note": ""
     },
     {
       "name": "Cling Wrap 300m Croco",
       "category": "Food Packaging & Service Supplies",
       "price": 2340,
-      "note": "",
-      "barcode": "GM803153299906"
+      "note": ""
     },
     {
       "name": "Cling Wrap Croco",
       "category": "Food Packaging & Service Supplies",
       "price": 1980,
-      "note": "",
-      "barcode": "GM803153294978"
+      "note": ""
     },
     {
       "name": "Cutlery Set 3pcs",
       "category": "Food Packaging & Service Supplies",
       "price": 820,
-      "note": "",
-      "barcode": "GM803153296698"
+      "note": ""
     },
     {
       "name": "Facial Tissue",
       "category": "Food Packaging & Service Supplies",
       "price": 140,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM803153296924"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Foil 300 Sulit Box",
       "category": "Food Packaging & Service Supplies",
       "price": 2200,
-      "note": "",
-      "barcode": "GM803153299967"
+      "note": ""
     },
     {
       "name": "Foil 300m Croco",
       "category": "Food Packaging & Service Supplies",
       "price": 3000,
-      "note": "",
-      "barcode": "GM803153291481"
+      "note": ""
     },
     {
       "name": "Foil 5 Meters Box",
       "category": "Food Packaging & Service Supplies",
       "price": 528,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298905"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Foil 8 Meters Box",
       "category": "Food Packaging & Service Supplies",
       "price": 1104,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291224"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Food Color Egg Yellow",
       "category": "Food Packaging & Service Supplies",
       "price": 75,
-      "note": "",
-      "barcode": "GM803153291564"
+      "note": ""
     },
     {
       "name": "Food Color Orange",
       "category": "Food Packaging & Service Supplies",
       "price": 73,
-      "note": "",
-      "barcode": "GM803153296748"
+      "note": ""
     },
     {
       "name": "Fork Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291078"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Fork Belle Box",
       "category": "Food Packaging & Service Supplies",
       "price": 820,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153295003"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Fork Black Party Pack",
       "category": "Food Packaging & Service Supplies",
       "price": 860,
-      "note": "",
-      "barcode": "GM803153293291"
+      "note": ""
     },
     {
       "name": "Fork Chibog",
       "category": "Food Packaging & Service Supplies",
       "price": 760,
-      "note": "",
-      "barcode": "GM803153293852"
+      "note": ""
     },
     {
       "name": "Fork Lucky Sack",
       "category": "Food Packaging & Service Supplies",
       "price": 800,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153294408"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Fork Lucky Star Box",
       "category": "Food Packaging & Service Supplies",
       "price": 820,
-      "note": "",
-      "barcode": "GM803153292206"
+      "note": ""
     },
     {
       "name": "Fork Trigrem",
       "category": "Food Packaging & Service Supplies",
       "price": 670,
-      "note": "",
-      "barcode": "GM803153296923"
+      "note": ""
     },
     {
       "name": "Goma",
       "category": "Food Packaging & Service Supplies",
       "price": 180,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153298415"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "Hand Gloves Plastic",
       "category": "Food Packaging & Service Supplies",
       "price": 2400,
-      "note": "",
-      "barcode": "GM803153297969"
+      "note": ""
     },
     {
       "name": "Hard Twine Kilo",
       "category": "Food Packaging & Service Supplies",
       "price": 640,
-      "note": "",
-      "barcode": "GM803153293925"
+      "note": ""
     },
     {
       "name": "Oxalic",
       "category": "Food Packaging & Service Supplies",
       "price": 1800,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294929"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Peanut Jar Large",
       "category": "Food Packaging & Service Supplies",
       "price": 5.8,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295290"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Peanut Jar Medium",
       "category": "Food Packaging & Service Supplies",
       "price": 4.8,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299407"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Peanut Jar Small",
       "category": "Food Packaging & Service Supplies",
       "price": 3.8,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293467"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Plate Holder",
       "category": "Food Packaging & Service Supplies",
       "price": 864,
-      "note": "",
-      "barcode": "GM803153296075"
+      "note": ""
     },
     {
       "name": "Round Plate",
       "category": "Food Packaging & Service Supplies",
       "price": 200,
-      "note": "",
-      "barcode": "GM803153295889"
+      "note": ""
     },
     {
       "name": "Sfork Luckystar Box",
       "category": "Food Packaging & Service Supplies",
       "price": 880,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153295577"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Softie Twine 10",
       "category": "Food Packaging & Service Supplies",
       "price": 550,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295482"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Softie Twine 20",
       "category": "Food Packaging & Service Supplies",
       "price": 600,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153291989"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Spoon Belle",
       "category": "Food Packaging & Service Supplies",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292442"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Spoon Belle Box",
       "category": "Food Packaging & Service Supplies",
       "price": 820,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM803153292569"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Spoon Black",
       "category": "Food Packaging & Service Supplies",
       "price": 800,
-      "note": "",
-      "barcode": "GM803153292081"
+      "note": ""
     },
     {
       "name": "Spoon Blue",
       "category": "Food Packaging & Service Supplies",
       "price": 800,
-      "note": "",
-      "barcode": "GM803153298385"
+      "note": ""
     },
     {
       "name": "Spoon Chibog",
       "category": "Food Packaging & Service Supplies",
       "price": 760,
-      "note": "",
-      "barcode": "GM803153299034"
+      "note": ""
     },
     {
       "name": "Spoon Lucky Sack",
       "category": "Food Packaging & Service Supplies",
       "price": 800,
-      "note": "",
-      "barcode": "GM803153291061"
+      "note": ""
     },
     {
       "name": "Spoon Lucky Star Box",
       "category": "Food Packaging & Service Supplies",
       "price": 820,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292689"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Spoon Trigrem",
       "category": "Food Packaging & Service Supplies",
       "price": 580,
-      "note": "",
-      "barcode": "GM803153295976"
+      "note": ""
     },
     {
       "name": "Square Plate",
       "category": "Food Packaging & Service Supplies",
       "price": 200,
-      "note": "",
-      "barcode": "GM803153293619"
+      "note": ""
     },
     {
       "name": "Stirrer Pack",
       "category": "Food Packaging & Service Supplies",
       "price": 100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153298427"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Sundae Spoon sack",
       "category": "Food Packaging & Service Supplies",
       "price": 850,
-      "note": "",
-      "barcode": "GM803153294742"
+      "note": ""
     },
     {
       "name": "Tina",
       "category": "Food Packaging & Service Supplies",
       "price": 1050,
-      "note": "",
-      "barcode": "GM803153294101"
+      "note": ""
     },
     {
       "name": "Tissue Precut",
       "category": "Food Packaging & Service Supplies",
       "price": 230,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291025"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tissue Roll",
       "category": "Food Packaging & Service Supplies",
       "price": 120,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153299037"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Toothpick Carved by Box",
       "category": "Food Packaging & Service Supplies",
       "price": 2900,
-      "note": "",
-      "barcode": "GM803153295995"
+      "note": ""
     },
     {
       "name": "Toy Spoon",
       "category": "Food Packaging & Service Supplies",
       "price": 770,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295708"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Toy Spoon White",
       "category": "Food Packaging & Service Supplies",
       "price": 700,
-      "note": "",
-      "barcode": "GM803153294742"
+      "note": ""
     },
     {
       "name": "Trash Bag Large",
       "category": "Food Packaging & Service Supplies",
       "price": 210,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294924"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Trash Bag Medium",
       "category": "Food Packaging & Service Supplies",
       "price": 300,
-      "note": "",
-      "barcode": "GM803153294565"
+      "note": ""
     },
     {
       "name": "Trash Bag Small",
       "category": "Food Packaging & Service Supplies",
       "price": 210,
-      "note": "",
-      "barcode": "GM803153295730"
+      "note": ""
     },
     {
       "name": "Trash Bag XL",
       "category": "Food Packaging & Service Supplies",
       "price": 310,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294652"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Trash Bag XXL",
       "category": "Food Packaging & Service Supplies",
       "price": 400,
-      "note": "",
-      "barcode": "GM803153291090"
+      "note": ""
     },
     {
       "name": "Bending Straw",
       "category": "Straw",
       "price": 1600,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153294945"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "Hard Straw",
       "category": "Straw",
       "price": 140,
-      "note": "",
-      "barcode": "GM803153293398"
+      "note": ""
     },
     {
       "name": "Hard Straw Green",
       "category": "Straw",
       "price": 140,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153296254"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Sagu Straw Black",
       "category": "Straw",
       "price": 160,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153294336"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "Sagu Straw Green",
       "category": "Straw",
       "price": 145,
-      "note": "",
-      "barcode": "GM803153297052"
+      "note": ""
     },
     {
       "name": "Sagu Straw Individual Wrap",
       "category": "Straw",
       "price": 1600,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153292153"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Sagu Straw Red",
       "category": "Straw",
       "price": 160,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)",
-      "barcode": "GM803153299218"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-01.xlsx)"
     },
     {
       "name": "Straw Angry Bird",
       "category": "Straw",
       "price": 610,
-      "note": "",
-      "barcode": "GM803153295725"
+      "note": ""
     },
     {
       "name": "Straw Jumbo",
       "category": "Straw",
       "price": 1100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153295036"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Straw Multi",
       "category": "Straw",
       "price": 630,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153295891"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Straw Olympic",
       "category": "Straw",
       "price": 630,
-      "note": "",
-      "barcode": "GM803153293988"
+      "note": ""
     },
     {
       "name": "Stripe Jumbo",
       "category": "Straw",
       "price": 1100,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153299933"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Coffee Jelly",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153299933"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Mr Gulaman Mango",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153294876"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "MR. Gulaman Black",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153292066"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "MR. Gulaman Buko Pandan",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153295376"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "MR. Gulaman Green",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153297014"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "MR. Gulaman Orange",
       "category": "Sago Gulaman",
       "price": 135,
-      "note": "",
-      "barcode": "GM803153291893"
+      "note": ""
     },
     {
       "name": "MR. Gulaman Red",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291654"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "MR. Gulaman White",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153293111"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "MR. Gulaman Yellow",
       "category": "Sago Gulaman",
       "price": 142,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153294276"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Sago Big",
       "category": "Sago Gulaman",
       "price": 3900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153291791"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Sago Medium",
       "category": "Sago Gulaman",
       "price": 3900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153291027"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "Sago Small",
       "category": "Sago Gulaman",
       "price": 3900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153291073"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Hasmine Rice",
       "category": "Rice",
       "price": 1250,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)",
-      "barcode": "GM803153295789"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-25.xlsx)"
     },
     {
       "name": "Jasmine Rice Yellow",
       "category": "Rice",
       "price": 1000,
-      "note": "",
-      "barcode": "GM803153295480"
+      "note": ""
     },
     {
       "name": "Malagkit Rice",
       "category": "Rice",
       "price": 2300,
-      "note": "",
-      "barcode": "GM803153294717"
+      "note": ""
     },
     {
       "name": "Malagkit Rice 25kls",
       "category": "Rice",
       "price": 1250,
-      "note": "",
-      "barcode": "GM803153299472"
+      "note": ""
     },
     {
       "name": "Rice Maalsa",
       "category": "Rice",
       "price": 900,
-      "note": "",
-      "barcode": "GM803153298170"
+      "note": ""
     },
     {
       "name": "MS750 Microwavable",
       "category": "Microwavable",
       "price": 1100,
-      "note": "",
-      "barcode": "GM803153298442"
+      "note": ""
     },
     {
       "name": "MS1000 Microwavable",
       "category": "Microwavable",
       "price": 1200,
-      "note": "",
-      "barcode": "GM803153292421"
+      "note": ""
     },
     {
       "name": "RE3200 Microwavable",
       "category": "Microwavable",
       "price": 1725,
-      "note": "",
-      "barcode": "GM803153292637"
+      "note": ""
     },
     {
       "name": "8x11 Quality",
       "category": "Quality Plastic",
       "price": 108,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153298252"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "16 oz LID",
       "category": "Plastic Cup",
       "price": 750,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM803153296576"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "RO 450 Belle",
       "category": "Microwavable",
       "price": 880,
-      "note": "",
-      "barcode": "GM803153291841"
+      "note": ""
     },
     {
       "name": "Toy Spoon Bell",
       "category": "Food Packaging & Service Supplies",
       "price": 770,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)",
-      "barcode": "GM803153291006"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-13.xlsx)"
     },
     {
       "name": "Tiny Quality Plain",
       "category": "Quality Plastic",
       "price": 163,
-      "note": "",
-      "barcode": "GM803153293249"
+      "note": ""
     },
     {
       "name": "Mini Quality Plain",
       "category": "Quality Plastic",
       "price": 98,
-      "note": "",
-      "barcode": "GM803153294419"
+      "note": ""
     },
     {
       "name": "Medium Quality Plain",
       "category": "Quality Plastic",
       "price": 306,
-      "note": "",
-      "barcode": "GM803153298038"
+      "note": ""
     },
     {
       "name": "Large Quality Plain",
       "category": "Quality Plastic",
       "price": 546,
-      "note": "",
-      "barcode": "GM803153293959"
+      "note": ""
     },
     {
       "name": "Patok #2",
       "category": "Ice Bag",
       "price": 310,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM803153298974"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Tiny Melon Transparent",
       "category": "Plastic Bag",
       "price": 120,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153293010"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "9x14 04 Calypso",
       "category": "Calypso",
       "price": 280,
-      "note": "",
-      "barcode": "GM803153299792"
+      "note": ""
     },
     {
       "name": "5x12 04 Calypso",
       "category": "Calypso",
       "price": 165,
-      "note": "",
-      "barcode": "GM803153299720"
+      "note": ""
     },
     {
       "name": "Cheese Miss BBQ Powder",
       "category": "Condiments",
       "price": 160,
-      "note": "",
-      "barcode": "GM803153293393"
+      "note": ""
     },
     {
       "name": "10 oz Paper Cup Belle",
       "category": "Paper Cup/Plate",
       "price": 700,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM803153293696"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "2x10 04 Calypso",
       "category": "Calypso",
       "price": 200,
-      "note": "",
-      "barcode": "GM803153295263"
+      "note": ""
     },
     {
       "name": "220 CC Belle",
       "category": "Microwavable",
       "price": 740,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)",
-      "barcode": "GM803153292994"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-05-05.xlsx)"
     },
     {
       "name": "Sundae Spoon Trigrem",
       "category": "Food Packaging & Service Supplies",
       "price": 880,
-      "note": "",
-      "barcode": "GM803153296357"
+      "note": ""
     },
     {
       "name": "1.5 Yellow cup",
       "category": "Plastic Cup",
       "price": 220,
-      "note": "",
-      "barcode": "GM803153296000"
+      "note": ""
     },
     {
       "name": "RE750 Bibbo",
       "category": "Microwavable",
       "price": 1220,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM803153297093"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "260 CC Belle",
       "category": "Cooler Cups",
       "price": 820,
-      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)",
-      "barcode": "GM803153294880"
+      "note": "Updated from item summary report (Item_Summary_Baliwag_Bustos_2026-04-15.xlsx)"
     },
     {
       "name": "390 CC 1000pcs Trigrem",
       "category": "Cooler Cups",
       "price": 1050,
-      "note": "",
-      "barcode": "GM803153294719"
+      "note": ""
     },
     {
       "name": "6x8 04 Calypso",
       "category": "Calypso",
       "price": 115,
-      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM808096655916"
+      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "320CC Pinoy 500pcs",
       "category": "Cooler Cups",
       "price": 620,
-      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM808096651895"
+      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Malagkit Rice 50kls",
       "category": "Rice",
       "price": 2550,
-      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM808096656415"
+      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "Hand Gloves Gilas",
       "category": "Food Packaging & Service Supplies",
       "price": 2000,
-      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)",
-      "barcode": "GM808096656396"
+      "note": "Imported from item summary report (Item_Summary_Baliwag_Bustos_2026-04-06.xlsx)"
     },
     {
       "name": "16 oz Paper Cup Belle",
       "category": "Paper Cup/Plate",
       "price": 1180,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)",
-      "barcode": "GM821305429195"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-23.xlsx)"
     },
     {
       "name": "22 oz Paper Cup Belle",
       "category": "Paper Cup/Plate",
       "price": 1480,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM868660513048"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Sfork Sack",
       "category": "Food Packaging & Service Supplies",
       "price": 800,
-      "note": "",
-      "barcode": "GM874157733619"
+      "note": ""
     },
     {
       "name": "320 CC 1000pcs Trigrem",
       "category": "Microwavable",
       "price": 900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)",
-      "barcode": "GM889002666958"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-07.xlsx)"
     },
     {
       "name": "Y 8oz Cooler Cups",
       "category": "Plastic Cup",
       "price": 950,
-      "note": "",
-      "barcode": "GM907411176635"
+      "note": ""
     },
     {
       "name": "Styro Cup Royal",
       "category": "Styro",
       "price": 940,
-      "note": "",
-      "barcode": "GM926227117398"
+      "note": ""
     },
     {
       "name": "Cling Wrap 300m Belle",
       "category": "Microwavable",
       "price": 1220,
-      "note": "",
-      "barcode": "GM644705836377"
+      "note": ""
     },
     {
       "name": "Hard Straw Red",
       "category": "Straw",
       "price": 150,
-      "note": "",
-      "barcode": "GM650370275126"
+      "note": ""
     },
     {
       "name": "Foil 5m Pcs",
       "category": "Food Packaging & Service Supplies",
       "price": 12.5,
-      "note": "",
-      "barcode": "GM665190953627"
+      "note": ""
     },
     {
       "name": "Bawang 5kls",
       "category": "Dry Goods",
       "price": 490,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)",
-      "barcode": "GM786168335345"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-28.xlsx)"
     },
     {
       "name": "Micro JR Transparent Bag",
       "category": "Plastic Bag",
       "price": 135,
-      "note": "",
-      "barcode": "GM787385201029"
+      "note": ""
     },
     {
       "name": "5x12 Patok",
       "category": "Ice Bag",
       "price": 320,
-      "note": "",
-      "barcode": "GM790880542362"
+      "note": ""
     },
     {
       "name": "3/4 Paper Bag",
       "category": "Paper Cup/Plate",
       "price": 1520,
-      "note": "",
-      "barcode": "GM797751349233"
+      "note": ""
     },
     {
       "name": "Toy Spoon Trigrem",
       "category": "Food Packaging & Service Supplies",
       "price": 850,
-      "note": "",
-      "barcode": "GM854945114023"
+      "note": ""
     },
     {
       "name": "Harina King",
       "category": "Bakery Supplies",
       "price": 990,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)",
-      "barcode": "GM859238941838"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-04-21.xlsx)"
     },
     {
       "name": "Tiny Melon Gray",
       "category": "Plastic Bag",
       "price": 110,
-      "note": "",
-      "barcode": "GM864846375489"
+      "note": ""
     },
     {
       "name": "390 CC 500pcs Trigrem",
       "category": "Cooler Cups",
       "price": 620,
-      "note": "",
-      "barcode": "GM870987156696"
+      "note": ""
     },
     {
       "name": "4x12 Starex",
       "category": "Ice Bag",
       "price": 430,
-      "note": "",
-      "barcode": "GM899953264784"
+      "note": ""
     },
     {
       "name": "22 oz Paper Cup Trigrem",
       "category": "Paper Cup/Plate",
       "price": 750,
-      "note": "",
-      "barcode": "GM656552245732"
+      "note": ""
     },
     {
       "name": "Whole Mushroom",
       "category": "Condiments",
       "price": 910,
-      "note": "",
-      "barcode": "GM658524072720"
+      "note": ""
     },
     {
       "name": "12 oz Paper cup Trigrem",
       "category": "Paper Cup/Plate",
       "price": 900,
-      "note": "",
-      "barcode": "GM922660943286"
+      "note": ""
     },
     {
       "name": "TC500",
       "category": "",
       "price": 1300,
-      "note": "",
-      "barcode": "GM935307544698"
+      "note": ""
     },
     {
       "name": "TC700",
       "category": "",
       "price": 1700,
-      "note": "",
-      "barcode": "GM942493233521"
+      "note": ""
     },
     {
       "name": "Sugar White Busco",
       "category": "Bakery Supplies",
       "price": 3250,
-      "note": "",
-      "barcode": "GM892198593474"
+      "note": ""
     },
     {
       "name": "Eco Bag Small",
       "category": "Paper Cup/Plate",
       "price": 125,
-      "note": "",
-      "barcode": "GM192838318097"
+      "note": ""
     },
     {
       "name": "Eco Bag Medium",
       "category": "Paper Cup/Plate",
       "price": 190,
-      "note": "",
-      "barcode": "GM193059178774"
+      "note": ""
     },
     {
       "name": "Eco Bag Large",
       "category": "Paper Cup/Plate",
       "price": 220,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)",
-      "barcode": "GM193261736976"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-07-31.xlsx)"
     },
     {
       "name": "Paper Bag #8",
       "category": "Paper Cup/Plate",
       "price": 1250,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM193817801715"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Paper Bag #10",
       "category": "Paper Cup/Plate",
       "price": 1300,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM193986464568"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Paper Bag #12",
       "category": "Paper Cup/Plate",
       "price": 1360,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)",
-      "barcode": "GM194153485917"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-06-30.xlsx)"
     },
     {
       "name": "Eco Bag XS",
       "category": "Paper Cup/Plate",
       "price": 120,
-      "note": "",
-      "barcode": "GM195826134860"
+      "note": ""
     },
     {
       "name": "Bending Straw White",
       "category": "Straw",
       "price": 1600,
-      "note": "",
-      "barcode": "GM198752588021"
+      "note": ""
     },
     {
       "name": "7x12 Calypso",
       "category": "Calypso",
       "price": 205,
-      "note": "",
-      "barcode": "GM021409198693"
+      "note": ""
     },
     {
       "name": "Siomai Fork Sack",
       "category": "",
       "price": 1800,
-      "note": "",
-      "barcode": "GM032681226699"
+      "note": ""
     },
     {
       "name": "Eco Bag XL",
       "category": "Paper Cup/Plate",
       "price": 295,
-      "note": "",
-      "barcode": "GM296595558701"
+      "note": ""
     },
     {
       "name": "390cc 1000pcs Suki",
       "category": "",
       "price": 900,
-      "note": "",
-      "barcode": "GM323011031480"
+      "note": ""
     },
     {
       "name": "4x6 04 Calypso",
       "category": "",
       "price": 130,
-      "note": "",
-      "barcode": "GM111089645268"
+      "note": ""
     },
     {
       "name": "3 oz Paper cup",
       "category": "",
       "price": 770,
-      "note": "",
-      "barcode": "GM407665022605"
+      "note": ""
     },
     {
       "name": "Paper Bag #16",
       "category": "",
       "price": 1180,
-      "note": "",
-      "barcode": "GM424009393843"
+      "note": ""
     },
     {
       "name": "Straw Pacman",
       "category": "",
       "price": 480,
-      "note": "",
-      "barcode": "GM425176179426"
+      "note": ""
     },
     {
       "name": "Wooden Spoon Box",
       "category": "",
       "price": 1580,
-      "note": "",
-      "barcode": "GM459275591604"
+      "note": ""
     },
     {
       "name": "110 CC Paper Bowl",
       "category": "",
       "price": 770,
-      "note": "",
-      "barcode": "GM530590833963"
+      "note": ""
     },
     {
       "name": "Safe Hand Gloves Box",
       "category": "",
       "price": 2550,
-      "note": "",
-      "barcode": "GM247011918828"
+      "note": ""
     },
     {
       "name": "BBQ Stick #10 Trigrem",
       "category": "",
       "price": 1320,
-      "note": "",
-      "barcode": "GM248838388903"
+      "note": ""
     },
     {
       "name": "BBQ Stick #8 Trigrem",
       "category": "",
       "price": 1100,
-      "note": "",
-      "barcode": "GM249080869504"
+      "note": ""
     },
     {
       "name": "390 CC Suki",
       "category": "",
       "price": 880,
-      "note": "",
-      "barcode": "GM252126485158"
+      "note": ""
     },
     {
       "name": "Styro Cup QC",
       "category": "",
       "price": 820,
-      "note": "",
-      "barcode": "GM255432853436"
+      "note": ""
     },
     {
       "name": "Styro Bowl 12oz QC",
       "category": "",
       "price": 700,
-      "note": "",
-      "barcode": "GM255716137471"
+      "note": ""
     },
     {
       "name": "BBQ Stick 6 Eco",
       "category": "",
       "price": 820,
-      "note": "",
-      "barcode": "GM260619739320"
+      "note": ""
     },
     {
       "name": "BBQ Stick 8 Eco",
       "category": "",
       "price": 920,
-      "note": "",
-      "barcode": "GM260797598978"
+      "note": ""
     },
     {
       "name": "8 oz Paper Cup Suki",
       "category": "",
       "price": 590,
-      "note": "",
-      "barcode": "GM265141815483"
+      "note": ""
     },
     {
       "name": "Sunshine Spaghetti 10 Pack",
       "category": "",
       "price": 1150,
-      "note": "",
-      "barcode": "GM268702303736"
+      "note": ""
     },
     {
       "name": "390 CC ECO 1000pcs",
       "category": "",
       "price": 900,
-      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)",
-      "barcode": "GM293087638171"
+      "note": "Updated from item summary report (Item_Summary_SanMiguel_Sanrafael_2026-09-21.xlsx)"
     },
     {
       "name": "Silver Paper Plate White Apple",
       "category": "",
       "price": 280,
-      "note": "",
-      "barcode": "GM955270479451"
+      "note": ""
     },
     {
       "name": "Silver Paper Plate Spartan",
       "category": "",
       "price": 560,
-      "note": "",
-      "barcode": "GM955878151993"
+      "note": ""
     },
     {
       "name": "Milktea Hangbag Single",
       "category": "",
       "price": 500,
-      "note": "",
-      "barcode": "GM468174493530"
+      "note": ""
     },
     {
       "name": "Milktea Hangbag Double",
       "category": "",
       "price": 450,
-      "note": "",
-      "barcode": "GM468411531542"
+      "note": ""
     },
     {
       "name": "Paper Bag #20",
       "category": "",
       "price": 1200,
-      "note": "",
-      "barcode": "GM470545405192"
+      "note": ""
     },
     {
       "name": "Plate Holder Green",
       "category": "",
       "price": 864,
-      "note": "",
-      "barcode": "GM316201054612"
+      "note": ""
     },
     {
       "name": "Boba Straw Clear Box 3000pcs",
       "category": "",
       "price": 1200,
-      "note": "",
-      "barcode": "GM544664576415"
+      "note": ""
     },
     {
       "name": "Paper Bag #25",
       "category": "",
       "price": 1250,
-      "note": "",
-      "barcode": "GM553703036953"
+      "note": ""
     },
     {
       "name": "BBQ Stick #12 Eco",
       "category": "",
       "price": 1300,
-      "note": "",
-      "barcode": "GM326674666491"
+      "note": ""
     },
     {
       "name": "Burger Box Silver",
       "category": "",
       "price": 1900,
-      "note": "",
-      "barcode": "GM330505537282"
+      "note": ""
     },
     {
       "name": "Foil 8 meters Pcs",
       "category": "",
       "price": 22,
-      "note": "",
-      "barcode": "GM334406741071"
+      "note": ""
     },
     {
       "name": "4x12 04 Calypso",
       "category": "",
       "price": 115,
-      "note": "",
-      "barcode": "GM582558447360"
+      "note": ""
     },
     {
       "name": "BBQ Stick #10 Eco",
       "category": "",
       "price": 1170,
-      "note": "",
-      "barcode": "GM589904749837"
+      "note": ""
     },
     {
       "name": "Mini Snow Bear",
       "category": "",
       "price": 80,
-      "note": "",
-      "barcode": "GM593567722945"
+      "note": ""
     },
     {
       "name": "Tiny Snow Bear",
       "category": "",
       "price": 110,
-      "note": "",
-      "barcode": "GM593775864685"
+      "note": ""
     },
     {
       "name": "Medium Snow Bear",
       "category": "",
       "price": 200,
-      "note": "",
-      "barcode": "GM593929063201"
+      "note": ""
     },
     {
       "name": "Large Snow Bear",
       "category": "",
       "price": 340,
-      "note": "",
-      "barcode": "GM594038427383"
+      "note": ""
     },
     {
       "name": "Tiny Clear",
       "category": "",
       "price": 110,
-      "note": "",
-      "barcode": "GM597308259130"
+      "note": ""
     },
     {
       "name": "520 CC Eco",
       "category": "",
       "price": 1150,
-      "note": "",
-      "barcode": "GM605109762997"
+      "note": ""
     },
     {
       "name": "Paper Bag #45",
       "category": "",
       "price": 990,
-      "note": "",
-      "barcode": "GM607935913103"
+      "note": ""
     },
     {
       "name": "Calamansi Tasty Palamig",
       "category": "",
       "price": 2250,
-      "note": "",
-      "barcode": "GM370010876324"
+      "note": ""
     },
     {
       "name": "12 oz Paper Cup Eco",
       "category": "",
       "price": 735,
-      "note": "",
-      "barcode": "GM660501568284"
+      "note": ""
     },
     {
       "name": "LB3 Paper",
       "category": "",
       "price": 2100,
-      "note": "",
-      "barcode": "GM672724862269"
+      "note": ""
     },
     {
       "name": "320 cc ECO",
       "category": "",
       "price": 880,
-      "note": "",
-      "barcode": "GM674057342663"
+      "note": ""
     },
     {
       "name": "Pull up Tissue 30 pack",
       "category": "",
       "price": 720,
-      "note": "",
-      "barcode": "GM675424546352"
+      "note": ""
     },
     {
       "name": "520 cc 1000pcs SUKI",
       "category": "",
       "price": 600,
-      "note": "",
-      "barcode": "GM677229913163"
+      "note": ""
     },
     {
       "name": "7x14 04 Calypso",
       "category": "",
       "price": 290,
-      "note": "",
-      "barcode": "GM680994871430"
+      "note": ""
     },
     {
       "name": "10 oz Paper Cup Eco",
       "category": "",
       "price": 755,
-      "note": "",
-      "barcode": "GM611298221594"
+      "note": ""
     },
     {
       "name": "Tissue Roll Eco",
       "category": "",
       "price": 90,
-      "note": "",
-      "barcode": "GM613476872606"
+      "note": ""
     },
     {
       "name": "8x14 04 Calypso",
       "category": "",
       "price": 245,
-      "note": "",
-      "barcode": "GM622897618086"
+      "note": ""
     },
     {
       "name": "9x16 04 Calypso",
       "category": "",
       "price": 320,
-      "note": "",
-      "barcode": "GM623131042718"
+      "note": ""
     },
     {
       "name": "320 cc Suki",
       "category": "",
       "price": 880,
-      "note": "",
-      "barcode": "GM639515412969"
+      "note": ""
     },
     {
       "name": "Coco Mama Gata Small",
       "category": "Condiments",
       "price": 1650,
-      "note": "",
-      "barcode": "GM633259324932"
+      "note": ""
     },
     {
       "name": "260 CC ECO",
       "category": "",
       "price": 800,
-      "note": "",
-      "barcode": "GM792001407468"
+      "note": ""
     },
     {
       "name": "8 oz Paper Cup ECO",
       "category": "",
       "price": 570,
-      "note": "",
-      "barcode": "GM795401192367"
+      "note": ""
     },
     {
       "name": "Styro Cup  Winwin",
       "category": "",
       "price": 850,
-      "note": "",
-      "barcode": "GM591889943757"
+      "note": ""
     },
     {
       "name": "Wooden Fork",
       "category": "",
       "price": 1580,
-      "note": "",
-      "barcode": "GM828531827973"
+      "note": ""
     },
     {
       "name": "6.5 Paper Cup Eco",
       "category": "",
       "price": 480,
-      "note": "",
-      "barcode": "GM833750216286"
+      "note": ""
     },
     {
       "name": "SQ 1500 Microwaveable",
       "category": "",
       "price": 2140,
-      "note": "",
-      "barcode": "GM705037645479"
+      "note": ""
     },
     {
       "name": "9x12 04 Calypso",
       "category": "",
       "price": 235,
-      "note": "",
-      "barcode": "GM991698541092"
+      "note": ""
     },
     {
       "name": "16oz Paper Cup Eco",
       "category": "",
       "price": 1180,
-      "note": "",
-      "barcode": "GM728009758060"
+      "note": ""
     },
     {
       "name": "20x30 Star",
       "category": "",
       "price": 130,
-      "note": "",
-      "barcode": "GM016249047174"
+      "note": ""
     },
     {
       "name": "8x11 Roll Star",
       "category": "",
       "price": 95,
-      "note": "",
-      "barcode": "GM023171763299"
+      "note": ""
     },
     {
       "name": "RO 250 Microwavable Bibbo",
       "category": "",
       "price": 720,
-      "note": "",
-      "barcode": "GM816060629470"
+      "note": ""
     },
     {
       "name": "RE 1000 Bibbo",
       "category": "",
       "price": 1300,
-      "note": "",
-      "barcode": "GM817007272525"
+      "note": ""
     },
     {
       "name": "Alsa Rice",
       "category": "",
       "price": 1120,
-      "note": "",
-      "barcode": "GM140857807903"
+      "note": ""
     },
     {
       "name": "Foil 300m Suki",
       "category": "",
       "price": 2240,
-      "note": "",
-      "barcode": "GM901798413317"
+      "note": ""
     },
     {
       "name": "Denorado Rice",
       "category": "",
       "price": 1270,
-      "note": "",
-      "barcode": "GM903951529240"
+      "note": ""
     },
     {
       "name": "RO10 Bibbo",
       "category": "",
       "price": 750,
-      "note": "",
-      "barcode": "GM930714813454"
+      "note": ""
     }
   ],
   "routes": [
