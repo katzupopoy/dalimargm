@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Dalimar General Merchandise</title>
+<title>Dalimar General Merchandise - Wholesale Price List</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
@@ -687,10 +687,40 @@ body.noScroll{
   }
 }
 
+
+/* ===== TEMPORARY PDF HOMEPAGE ===== */
+body { margin:0; padding:0; background:#fff; }
+#pdfHomepage {
+  position:fixed;
+  inset:0;
+  width:100%;
+  height:100%;
+  z-index:999999;
+  background:#fff;
+}
+#pdfHomepage iframe {
+  width:100%;
+  height:100%;
+  border:none;
+  display:block;
+}
+
 </style>
 </head>
-
 <body>
+
+<!-- TEMPORARY HOMEPAGE: PDF Price List -->
+<div id="pdfHomepage">
+  <iframe src="Dalimar_Item_Master_Price_List (1).pdf" type="application/pdf" title="Dalimar Wholesale Price List">
+    <p style="padding:40px; text-align:center; font-family:sans-serif;">
+      Your browser does not support embedded PDFs.<br>
+      <a href="Dalimar_Item_Master_Price_List (1).pdf" download style="color:#f97316; font-weight:bold;">Download the Wholesale Price List (PDF)</a>
+    </p>
+  </iframe>
+</div>
+
+<!-- ORIGINAL HOMEPAGE CONTENT HIDDEN FOR NOW
+
 
   <!-- ✅ Custom Mobile Launcher (Lobster) -->
 <button id="lobstyLauncher" aria-label="Open chat" type="button">
@@ -2055,6 +2085,11 @@ document.addEventListener("keydown", function(e){
   })();
   </script>
   <!--End of Tawk.to Script-->
+
+</body>
+</html>
+
+-->
 
 </body>
 </html>
